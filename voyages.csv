@@ -1,0 +1,712 @@
+voyage_id,imo_number,vessel_name,vessel_type,cp_date,laycan_start,laycan_end,actual_load_date,actual_discharge_date,load_port,load_country,load_region,discharge_port,discharge_country,discharge_region,cargo_grade,cargo_qty_mt,charterer,sts_transfer,ballast_origin,laden_days,ballast_days
+VYG1000,9481234,Nord Titan,VLCC,2022-01-01,2022-01-03,2022-01-07,2022-01-05,2022-01-28,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Bonny Light,283971,Litasco,N,Ulsan,23,7
+VYG1001,9481234,Nord Titan,VLCC,2022-02-02,2022-02-04,2022-02-08,2022-02-05,2022-03-06,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Arab Heavy,286623,Litasco,N,Rotterdam,29,8
+VYG1002,9481234,Nord Titan,VLCC,2022-03-10,2022-03-17,2022-03-21,2022-03-18,2022-04-07,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,282371,Chevron Products,N,Houston,20,6
+VYG1003,9481234,Nord Titan,VLCC,2022-04-13,2022-04-19,2022-04-23,2022-04-20,2022-05-08,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Arab Light,279702,Vitol Group,N,Singapore,18,11
+VYG1004,9481234,Nord Titan,VLCC,2022-05-12,2022-05-19,2022-05-23,2022-05-21,2022-06-05,Bonny,Nigeria,WAF,Ningbo,China,FEA,Bonny Light,273720,Saudi Aramco Trading,N,Singapore,15,9
+VYG1005,9481234,Nord Titan,VLCC,2022-06-09,2022-06-16,2022-06-20,2022-06-17,2022-07-14,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,268939,Vitol Group,N,Houston,27,6
+VYG1006,9481234,Nord Titan,VLCC,2022-07-20,2022-07-24,2022-07-28,2022-07-24,2022-08-13,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,285388,Glencore Energy,N,Singapore,20,5
+VYG1007,9481234,Nord Titan,VLCC,2022-08-19,2022-08-26,2022-08-30,2022-08-27,2022-09-12,Escravos,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,277159,Trafigura,N,Singapore,16,10
+VYG1008,9481234,Nord Titan,VLCC,2022-09-17,2022-09-21,2022-09-25,2022-09-21,2022-10-14,Kharg Island,Iran,AG,Houston,USA,USGC,Basrah Light,283147,BP Oil International,N,Rotterdam,23,7
+VYG1009,9481234,Nord Titan,VLCC,2022-10-23,2022-10-27,2022-10-31,2022-10-27,2022-11-22,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Basrah Light,272459,Freepoint Commodities,N,Ulsan,26,10
+VYG1010,9481234,Nord Titan,VLCC,2022-11-30,2022-12-04,2022-12-08,2022-12-06,2023-01-01,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,283526,Litasco,N,Houston,26,7
+VYG1011,9481234,Nord Titan,VLCC,2023-01-08,2023-01-10,2023-01-14,2023-01-12,2023-01-25,Bonny,Nigeria,WAF,,,,Forcados,286649,BP Oil International,Y,Antwerp,13,10
+VYG1012,9481234,Nord Titan,VLCC,2023-02-01,2023-02-05,2023-02-09,2023-02-07,2023-02-22,Basrah,Iraq,AG,Houston,USA,USGC,Basrah Light,280125,Chevron Products,N,Singapore,15,10
+VYG1013,9481234,Nord Titan,VLCC,2023-02-26,2023-02-28,2023-03-04,2023-02-28,2023-03-12,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Bonny Light,277205,ExxonMobil Oil,N,Singapore,12,10
+VYG1014,9481234,Nord Titan,VLCC,2023-03-19,2023-03-21,2023-03-25,2023-03-23,2023-04-13,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Arab Heavy,279840,Freepoint Commodities,N,Rotterdam,21,9
+VYG1015,9481234,Nord Titan,VLCC,2023-04-21,2023-04-24,2023-04-28,2023-04-25,2023-05-05,Ruwais,UAE,AG,Singapore,Singapore,SEA,Iranian Heavy,269536,ExxonMobil Oil,N,Ulsan,10,6
+VYG1016,9481234,Nord Titan,VLCC,2023-05-11,2023-05-18,2023-05-22,2023-05-20,2023-05-30,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Basrah Light,271533,Vitol Group,N,Ulsan,10,5
+VYG1017,9481234,Nord Titan,VLCC,2023-06-08,2023-06-11,2023-06-15,2023-06-12,2023-07-05,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,286558,Chevron Products,N,Singapore,23,11
+VYG1018,9481234,Nord Titan,VLCC,2023-07-12,2023-07-16,2023-07-20,2023-07-17,2023-08-04,Bonny,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,263799,TotalEnergies Trading,N,Houston,18,10
+VYG1019,9481234,Nord Titan,VLCC,2023-08-08,2023-08-10,2023-08-14,2023-08-12,2023-09-05,Ruwais,UAE,AG,Singapore,Singapore,SEA,Arab Heavy,267942,ExxonMobil Oil,N,Ulsan,24,11
+VYG1020,9481234,Nord Titan,VLCC,2023-09-12,2023-09-19,2023-09-23,2023-09-19,2023-10-08,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Light,274512,Glencore Energy,N,Ulsan,19,9
+VYG1021,9481234,Nord Titan,VLCC,2023-10-13,2023-10-16,2023-10-20,2023-10-18,2023-11-09,Ruwais,UAE,AG,Singapore,Singapore,SEA,Arab Light,265740,Vitol Group,N,Antwerp,22,6
+VYG1022,9481234,Nord Titan,VLCC,2023-11-13,2023-11-17,2023-11-21,2023-11-19,2023-12-06,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,271069,ExxonMobil Oil,N,Houston,17,11
+VYG1023,9481234,Nord Titan,VLCC,2023-12-14,2023-12-21,2023-12-25,2023-12-21,2024-01-15,Ruwais,UAE,AG,Qingdao,China,FEA,Iranian Heavy,276555,TotalEnergies Trading,N,Ulsan,25,9
+VYG1024,9481234,Nord Titan,VLCC,2024-01-20,2024-01-22,2024-01-26,2024-01-22,2024-02-09,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Basrah Light,269170,Litasco,N,Antwerp,18,11
+VYG1025,9481234,Nord Titan,VLCC,2024-02-17,2024-02-20,2024-02-24,2024-02-22,2024-03-14,Ruwais,UAE,AG,Ningbo,China,FEA,Iranian Heavy,288732,Gunvor Group,N,Singapore,21,4
+VYG1026,9481234,Nord Titan,VLCC,2024-03-22,2024-03-26,2024-03-30,2024-03-28,2024-04-20,Kharg Island,Iran,AG,Ningbo,China,FEA,Iranian Heavy,280584,BP Oil International,N,Rotterdam,23,7
+VYG1027,9481234,Nord Titan,VLCC,2024-04-24,2024-04-29,2024-05-03,2024-04-30,2024-05-11,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Heavy,264364,Glencore Energy,N,Houston,11,5
+VYG1028,9481234,Nord Titan,VLCC,2024-05-17,2024-05-20,2024-05-24,2024-05-20,2024-06-12,Bonny,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,280690,Mercuria Energy,N,Antwerp,23,5
+VYG1029,9481234,Nord Titan,VLCC,2024-06-20,2024-06-23,2024-06-27,2024-06-23,2024-07-21,Ruwais,UAE,AG,Ningbo,China,FEA,Basrah Light,273491,Saudi Aramco Trading,N,Rotterdam,28,8
+VYG1030,9481234,Nord Titan,VLCC,2024-07-28,2024-07-31,2024-08-04,2024-07-31,2024-08-13,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,286523,ExxonMobil Oil,N,Antwerp,13,11
+VYG1031,9481234,Nord Titan,VLCC,2024-08-17,2024-08-19,2024-08-23,2024-08-19,2024-09-07,Basrah,Iraq,AG,Houston,USA,USGC,Basrah Light,291161,BP Oil International,N,Ulsan,19,5
+VYG1032,9481234,Nord Titan,VLCC,2024-09-14,2024-09-19,2024-09-23,2024-09-20,2024-10-16,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Iranian Heavy,278688,Shell Trading,N,Ulsan,26,6
+VYG1033,9481234,Nord Titan,VLCC,2024-10-25,2024-10-29,2024-11-02,2024-10-29,2024-11-08,Bonny,Nigeria,WAF,Houston,USA,USGC,Bonny Light,289915,Saudi Aramco Trading,N,Rotterdam,10,8
+VYG1034,9481234,Nord Titan,VLCC,2024-11-12,2024-11-15,2024-11-19,2024-11-16,2024-12-02,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,271528,TotalEnergies Trading,N,Ulsan,16,4
+VYG1035,9481234,Nord Titan,VLCC,2024-12-07,2024-12-12,2024-12-16,2024-12-14,2025-01-07,Kharg Island,Iran,AG,Ningbo,China,FEA,Arab Light,266341,Chevron Products,N,Ulsan,24,8
+VYG1036,9512345,Nord Atlas,VLCC,2022-01-01,2022-01-08,2022-01-12,2022-01-08,2022-01-22,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Light,273752,Castleton Commodities,N,Ulsan,14,4
+VYG1037,9512345,Nord Atlas,VLCC,2022-01-27,2022-02-02,2022-02-06,2022-02-03,2022-03-01,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Light,291124,Vitol Group,N,Antwerp,26,9
+VYG1038,9512345,Nord Atlas,VLCC,2022-03-06,2022-03-11,2022-03-15,2022-03-12,2022-04-09,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,267593,Freepoint Commodities,N,Rotterdam,28,6
+VYG1039,9512345,Nord Atlas,VLCC,2022-04-16,2022-04-18,2022-04-22,2022-04-18,2022-05-06,Bonny,Nigeria,WAF,Houston,USA,USGC,Bonny Light,289296,TotalEnergies Trading,N,Houston,18,4
+VYG1040,9512345,Nord Atlas,VLCC,2022-05-14,2022-05-21,2022-05-25,2022-05-23,2022-06-06,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,272110,Saudi Aramco Trading,N,Antwerp,14,11
+VYG1041,9512345,Nord Atlas,VLCC,2022-06-10,2022-06-16,2022-06-20,2022-06-17,2022-07-10,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Arab Heavy,265499,Litasco,N,Ulsan,23,9
+VYG1042,9512345,Nord Atlas,VLCC,2022-07-18,2022-07-22,2022-07-26,2022-07-22,2022-08-01,Ruwais,UAE,AG,Qingdao,China,FEA,Basrah Light,266344,Equinor Trading,N,Antwerp,10,11
+VYG1043,9512345,Nord Atlas,VLCC,2022-08-05,2022-08-11,2022-08-15,2022-08-13,2022-08-26,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Heavy,280571,Vitol Group,N,Rotterdam,13,9
+VYG1044,9512345,Nord Atlas,VLCC,2022-09-04,2022-09-06,2022-09-10,2022-09-06,2022-09-21,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Arab Heavy,291689,Chevron Products,N,Singapore,15,6
+VYG1045,9512345,Nord Atlas,VLCC,2022-09-27,2022-10-02,2022-10-06,2022-10-03,2022-10-15,Ras Tanura,Saudi Arabia,AG,,,,Arab Light,269535,Vitol Group,Y,Rotterdam,12,6
+VYG1046,9512345,Nord Atlas,VLCC,2022-10-19,2022-10-21,2022-10-25,2022-10-23,2022-11-21,Ras Tanura,Saudi Arabia,AG,Houston,USA,USGC,Basrah Light,283403,BP Oil International,N,Antwerp,29,4
+VYG1047,9512345,Nord Atlas,VLCC,2022-11-29,2022-12-04,2022-12-08,2022-12-05,2022-12-18,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Iranian Heavy,284034,Vitol Group,N,Antwerp,13,4
+VYG1048,9512345,Nord Atlas,VLCC,2022-12-26,2023-01-01,2023-01-05,2023-01-01,2023-01-19,Kharg Island,Iran,AG,Qingdao,China,FEA,Iranian Heavy,274547,Vitol Group,N,Houston,18,4
+VYG1049,9512345,Nord Atlas,VLCC,2023-01-28,2023-01-31,2023-02-04,2023-01-31,2023-02-19,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Arab Light,291205,BP Oil International,N,Houston,19,8
+VYG1050,9512345,Nord Atlas,VLCC,2023-02-24,2023-03-03,2023-03-07,2023-03-05,2023-03-24,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Iranian Heavy,281604,Equinor Trading,N,Rotterdam,19,4
+VYG1051,9512345,Nord Atlas,VLCC,2023-04-02,2023-04-04,2023-04-08,2023-04-06,2023-04-18,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,291522,Shell Trading,N,Houston,12,5
+VYG1052,9512345,Nord Atlas,VLCC,2023-04-25,2023-04-28,2023-05-02,2023-04-30,2023-05-24,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,286105,Vitol Group,N,Singapore,24,10
+VYG1053,9512345,Nord Atlas,VLCC,2023-06-02,2023-06-04,2023-06-08,2023-06-05,2023-06-17,Kharg Island,Iran,AG,Ningbo,China,FEA,Iranian Heavy,286464,TotalEnergies Trading,N,Houston,12,7
+VYG1054,9512345,Nord Atlas,VLCC,2023-06-22,2023-06-26,2023-06-30,2023-06-27,2023-07-22,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Iranian Heavy,280682,Vitol Group,N,Rotterdam,25,8
+VYG1055,9512345,Nord Atlas,VLCC,2023-07-27,2023-07-31,2023-08-04,2023-07-31,2023-08-17,Ruwais,UAE,AG,Houston,USA,USGC,Arab Light,282140,Shell Trading,N,Antwerp,17,11
+VYG1056,9512345,Nord Atlas,VLCC,2023-08-26,2023-08-29,2023-09-02,2023-08-30,2023-09-19,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Arab Heavy,284948,TotalEnergies Trading,N,Houston,20,5
+VYG1057,9512345,Nord Atlas,VLCC,2023-09-28,2023-10-04,2023-10-08,2023-10-06,2023-10-18,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Arab Heavy,280423,Freepoint Commodities,N,Houston,12,6
+VYG1058,9512345,Nord Atlas,VLCC,2023-10-22,2023-10-25,2023-10-29,2023-10-27,2023-11-12,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Iranian Heavy,290170,Shell Trading,N,Houston,16,6
+VYG1059,9512345,Nord Atlas,VLCC,2023-11-19,2023-11-21,2023-11-25,2023-11-21,2023-12-06,Basrah,Iraq,AG,Houston,USA,USGC,Iranian Heavy,266127,Trafigura,N,Houston,15,8
+VYG1060,9512345,Nord Atlas,VLCC,2023-12-10,2023-12-16,2023-12-20,2023-12-16,2023-12-29,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,280325,TotalEnergies Trading,N,Singapore,13,5
+VYG1061,9512345,Nord Atlas,VLCC,2024-01-05,2024-01-11,2024-01-15,2024-01-13,2024-01-30,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Light,277740,Chevron Products,N,Antwerp,17,9
+VYG1062,9512345,Nord Atlas,VLCC,2024-02-08,2024-02-14,2024-02-18,2024-02-16,2024-03-07,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Basrah Light,269746,Shell Trading,N,Rotterdam,20,4
+VYG1063,9512345,Nord Atlas,VLCC,2024-03-12,2024-03-15,2024-03-19,2024-03-16,2024-04-06,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Bonny Light,264150,Shell Trading,N,Antwerp,21,4
+VYG1064,9512345,Nord Atlas,VLCC,2024-04-12,2024-04-19,2024-04-23,2024-04-20,2024-05-17,Ras Tanura,Saudi Arabia,AG,Houston,USA,USGC,Arab Heavy,264231,BP Oil International,N,Antwerp,27,4
+VYG1065,9512345,Nord Atlas,VLCC,2024-05-23,2024-05-30,2024-06-03,2024-06-01,2024-06-12,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Heavy,289624,Mercuria Energy,N,Rotterdam,11,5
+VYG1066,9512345,Nord Atlas,VLCC,2024-06-21,2024-06-24,2024-06-28,2024-06-26,2024-07-17,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,285933,Chevron Products,N,Rotterdam,21,10
+VYG1067,9512345,Nord Atlas,VLCC,2024-07-25,2024-07-27,2024-07-31,2024-07-29,2024-08-18,Ruwais,UAE,AG,Qingdao,China,FEA,Basrah Light,288278,Castleton Commodities,N,Ulsan,20,10
+VYG1068,9512345,Nord Atlas,VLCC,2024-08-24,2024-08-30,2024-09-03,2024-08-31,2024-09-23,Kharg Island,Iran,AG,Qingdao,China,FEA,Basrah Light,266852,Vitol Group,N,Ulsan,23,9
+VYG1069,9512345,Nord Atlas,VLCC,2024-09-29,2024-10-03,2024-10-07,2024-10-03,2024-10-21,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Basrah Light,273650,Equinor Trading,N,Ulsan,18,8
+VYG1070,9512345,Nord Atlas,VLCC,2024-10-27,2024-11-02,2024-11-06,2024-11-02,2024-11-20,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,271541,Chevron Products,N,Antwerp,18,7
+VYG1071,9512345,Nord Atlas,VLCC,2024-11-28,2024-12-05,2024-12-09,2024-12-07,2025-01-04,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Arab Heavy,272481,Saudi Aramco Trading,N,Ulsan,28,7
+VYG1072,9523456,Nord Pioneer,VLCC,2022-01-01,2022-01-08,2022-01-12,2022-01-10,2022-01-29,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Arab Light,281848,Castleton Commodities,N,Singapore,19,9
+VYG1073,9523456,Nord Pioneer,VLCC,2022-02-06,2022-02-11,2022-02-15,2022-02-11,2022-02-26,Basrah,Iraq,AG,Singapore,Singapore,SEA,Arab Heavy,271872,Equinor Trading,N,Antwerp,15,8
+VYG1074,9523456,Nord Pioneer,VLCC,2022-03-06,2022-03-11,2022-03-15,2022-03-13,2022-04-10,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,268631,ExxonMobil Oil,N,Antwerp,28,5
+VYG1075,9523456,Nord Pioneer,VLCC,2022-04-17,2022-04-23,2022-04-27,2022-04-24,2022-05-05,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Light,269909,Castleton Commodities,N,Singapore,11,11
+VYG1076,9523456,Nord Pioneer,VLCC,2022-05-14,2022-05-17,2022-05-21,2022-05-19,2022-06-06,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Arab Light,289772,Litasco,N,Antwerp,18,8
+VYG1077,9523456,Nord Pioneer,VLCC,2022-06-15,2022-06-22,2022-06-26,2022-06-22,2022-07-07,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Basrah Light,268630,Chevron Products,N,Singapore,15,8
+VYG1078,9523456,Nord Pioneer,VLCC,2022-07-14,2022-07-17,2022-07-21,2022-07-17,2022-07-29,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,279832,ExxonMobil Oil,N,Ulsan,12,8
+VYG1079,9523456,Nord Pioneer,VLCC,2022-08-06,2022-08-11,2022-08-15,2022-08-13,2022-09-07,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,280623,Castleton Commodities,N,Rotterdam,25,5
+VYG1080,9523456,Nord Pioneer,VLCC,2022-09-14,2022-09-16,2022-09-20,2022-09-18,2022-10-14,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Iranian Heavy,268408,Freepoint Commodities,N,Ulsan,26,4
+VYG1081,9523456,Nord Pioneer,VLCC,2022-10-20,2022-10-25,2022-10-29,2022-10-27,2022-11-14,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,286031,Glencore Energy,N,Singapore,18,9
+VYG1082,9523456,Nord Pioneer,VLCC,2022-11-20,2022-11-26,2022-11-30,2022-11-28,2022-12-24,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,276758,Litasco,N,Houston,26,10
+VYG1083,9523456,Nord Pioneer,VLCC,2022-12-31,2023-01-03,2023-01-07,2023-01-03,2023-01-16,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,294031,Saudi Aramco Trading,N,Rotterdam,13,8
+VYG1084,9523456,Nord Pioneer,VLCC,2023-01-22,2023-01-28,2023-02-01,2023-01-29,2023-02-10,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Arab Heavy,294031,Saudi Aramco Trading,N,Rotterdam,12,9
+VYG1085,9523456,Nord Pioneer,VLCC,2023-02-16,2023-02-22,2023-02-26,2023-02-23,2023-03-14,Basrah,Iraq,AG,Ningbo,China,FEA,Arab Heavy,295556,Mercuria Energy,N,Singapore,19,4
+VYG1086,9523456,Nord Pioneer,VLCC,2023-03-22,2023-03-29,2023-04-02,2023-03-31,2023-04-18,Ras Tanura,Saudi Arabia,AG,Singapore,Singapore,SEA,Basrah Light,284999,Castleton Commodities,N,Rotterdam,18,4
+VYG1087,9523456,Nord Pioneer,VLCC,2023-04-22,2023-04-24,2023-04-28,2023-04-25,2023-05-16,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Heavy,266131,ExxonMobil Oil,N,Rotterdam,21,4
+VYG1088,9523456,Nord Pioneer,VLCC,2023-05-22,2023-05-28,2023-06-01,2023-05-30,2023-06-17,Basrah,Iraq,AG,Houston,USA,USGC,Iranian Heavy,279117,Chevron Products,N,Singapore,18,6
+VYG1089,9523456,Nord Pioneer,VLCC,2023-06-21,2023-06-24,2023-06-28,2023-06-25,2023-07-23,Kharg Island,Iran,AG,Houston,USA,USGC,Arab Heavy,269099,Glencore Energy,N,Singapore,28,7
+VYG1090,9523456,Nord Pioneer,VLCC,2023-08-01,2023-08-03,2023-08-07,2023-08-05,2023-08-28,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Heavy,268973,Litasco,N,Ulsan,23,6
+VYG1091,9523456,Nord Pioneer,VLCC,2023-09-04,2023-09-11,2023-09-15,2023-09-11,2023-10-04,Ruwais,UAE,AG,Houston,USA,USGC,Arab Heavy,268491,Trafigura,N,Singapore,23,9
+VYG1092,9523456,Nord Pioneer,VLCC,2023-10-13,2023-10-20,2023-10-24,2023-10-20,2023-11-03,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,289218,Freepoint Commodities,N,Rotterdam,14,5
+VYG1093,9523456,Nord Pioneer,VLCC,2023-11-11,2023-11-14,2023-11-18,2023-11-14,2023-12-12,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Arab Heavy,266852,Freepoint Commodities,N,Houston,28,4
+VYG1094,9523456,Nord Pioneer,VLCC,2023-12-16,2023-12-18,2023-12-22,2023-12-18,2024-01-13,Basrah,Iraq,AG,Singapore,Singapore,SEA,Arab Heavy,272964,Vitol Group,N,Rotterdam,26,8
+VYG1095,9523456,Nord Pioneer,VLCC,2024-01-18,2024-01-25,2024-01-29,2024-01-25,2024-02-05,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,293779,Gunvor Group,N,Ulsan,11,4
+VYG1096,9523456,Nord Pioneer,VLCC,2024-02-13,2024-02-20,2024-02-24,2024-02-22,2024-03-19,Ras Tanura,Saudi Arabia,AG,,,,Basrah Light,271853,Gunvor Group,Y,Antwerp,26,10
+VYG1097,9523456,Nord Pioneer,VLCC,2024-03-23,2024-03-25,2024-03-29,2024-03-27,2024-04-16,Ruwais,UAE,AG,Qingdao,China,FEA,Basrah Light,284786,Shell Trading,N,Rotterdam,20,4
+VYG1098,9523456,Nord Pioneer,VLCC,2024-04-25,2024-04-29,2024-05-03,2024-04-29,2024-05-25,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Basrah Light,273936,Shell Trading,N,Rotterdam,26,9
+VYG1099,9523456,Nord Pioneer,VLCC,2024-05-29,2024-06-04,2024-06-08,2024-06-05,2024-07-04,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,267405,Litasco,N,Ulsan,29,4
+VYG1100,9523456,Nord Pioneer,VLCC,2024-07-11,2024-07-13,2024-07-17,2024-07-13,2024-07-27,Ruwais,UAE,AG,Ningbo,China,FEA,Arab Light,270988,Mercuria Energy,N,Antwerp,14,11
+VYG1101,9523456,Nord Pioneer,VLCC,2024-08-02,2024-08-04,2024-08-08,2024-08-06,2024-08-19,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Arab Light,279608,Litasco,N,Houston,13,8
+VYG1102,9523456,Nord Pioneer,VLCC,2024-08-27,2024-08-30,2024-09-03,2024-08-31,2024-09-27,Ras Tanura,Saudi Arabia,AG,Ningbo,China,FEA,Arab Heavy,294329,Gunvor Group,N,Houston,27,8
+VYG1103,9523456,Nord Pioneer,VLCC,2024-10-04,2024-10-07,2024-10-11,2024-10-08,2024-10-29,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Basrah Light,285366,Chevron Products,N,Ulsan,21,7
+VYG1104,9523456,Nord Pioneer,VLCC,2024-11-07,2024-11-09,2024-11-13,2024-11-09,2024-11-28,Escravos,Nigeria,WAF,Houston,USA,USGC,Bonny Light,280079,Litasco,N,Ulsan,19,8
+VYG1105,9523456,Nord Pioneer,VLCC,2024-12-02,2024-12-04,2024-12-08,2024-12-06,2024-12-18,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Forcados,274962,Gunvor Group,N,Houston,12,8
+VYG1106,9523456,Nord Pioneer,VLCC,2024-12-24,2024-12-30,2025-01-03,2024-12-31,2025-01-18,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,278105,Vitol Group,N,Houston,18,9
+VYG1107,9534567,Nord Meridian,Suezmax,2022-01-01,2022-01-04,2022-01-08,2022-01-06,2022-01-27,Ras Tanura,Saudi Arabia,AG,Augusta,Italy,MED,Arab Heavy,139609,Chevron Products,N,Antwerp,21,6
+VYG1108,9534567,Nord Meridian,Suezmax,2022-02-02,2022-02-06,2022-02-10,2022-02-07,2022-02-19,Djeno,Congo,WAF,Augusta,Italy,MED,Bonny Light,147979,Trafigura,N,Ulsan,12,5
+VYG1109,9534567,Nord Meridian,Suezmax,2022-02-26,2022-03-04,2022-03-08,2022-03-05,2022-03-27,Escravos,Nigeria,WAF,Augusta,Italy,MED,Forcados,144036,Equinor Trading,N,Houston,22,5
+VYG1110,9534567,Nord Meridian,Suezmax,2022-04-04,2022-04-08,2022-04-12,2022-04-09,2022-04-22,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,144738,Saudi Aramco Trading,N,Houston,13,7
+VYG1111,9534567,Nord Meridian,Suezmax,2022-05-01,2022-05-06,2022-05-10,2022-05-08,2022-06-01,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Heavy,153592,ExxonMobil Oil,N,Rotterdam,24,10
+VYG1112,9534567,Nord Meridian,Suezmax,2022-06-08,2022-06-14,2022-06-18,2022-06-15,2022-06-30,Djeno,Congo,WAF,Trieste,Italy,MED,Forcados,152270,BP Oil International,N,Singapore,15,10
+VYG1113,9534567,Nord Meridian,Suezmax,2022-07-06,2022-07-10,2022-07-14,2022-07-10,2022-07-22,Ras Tanura,Saudi Arabia,AG,Fos-sur-Mer,France,MED,Arab Heavy,152343,Glencore Energy,N,Singapore,12,10
+VYG1114,9534567,Nord Meridian,Suezmax,2022-07-26,2022-07-28,2022-08-01,2022-07-28,2022-08-18,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Bonny Light,143999,Vitol Group,N,Houston,21,6
+VYG1115,9534567,Nord Meridian,Suezmax,2022-08-22,2022-08-28,2022-09-01,2022-08-30,2022-09-09,Mongstad,Norway,NS,Qingdao,China,FEA,Brent Blend,152573,Equinor Trading,N,Houston,10,7
+VYG1116,9534567,Nord Meridian,Suezmax,2022-09-15,2022-09-21,2022-09-25,2022-09-21,2022-10-05,Ras Tanura,Saudi Arabia,AG,Trieste,Italy,MED,Arab Heavy,144805,Litasco,N,Houston,14,8
+VYG1117,9534567,Nord Meridian,Suezmax,2022-10-12,2022-10-19,2022-10-23,2022-10-19,2022-11-17,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,143953,TotalEnergies Trading,N,Rotterdam,29,10
+VYG1118,9534567,Nord Meridian,Suezmax,2022-11-25,2022-11-27,2022-12-01,2022-11-29,2022-12-24,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Light,139209,Glencore Energy,N,Houston,25,7
+VYG1119,9534567,Nord Meridian,Suezmax,2023-01-01,2023-01-04,2023-01-08,2023-01-06,2023-01-26,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,141661,Shell Trading,N,Antwerp,20,7
+VYG1120,9534567,Nord Meridian,Suezmax,2023-02-04,2023-02-11,2023-02-15,2023-02-13,2023-03-14,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,154687,Equinor Trading,N,Singapore,29,8
+VYG1121,9534567,Nord Meridian,Suezmax,2023-03-21,2023-03-23,2023-03-27,2023-03-24,2023-04-11,Basrah,Iraq,AG,Augusta,Italy,MED,Basrah Light,140304,Glencore Energy,N,Houston,18,10
+VYG1122,9534567,Nord Meridian,Suezmax,2023-04-19,2023-04-21,2023-04-25,2023-04-22,2023-05-11,Mongstad,Norway,NS,Qingdao,China,FEA,Brent Blend,141898,Freepoint Commodities,N,Antwerp,19,7
+VYG1123,9534567,Nord Meridian,Suezmax,2023-05-16,2023-05-23,2023-05-27,2023-05-25,2023-06-04,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,143654,Equinor Trading,N,Ulsan,10,5
+VYG1124,9534567,Nord Meridian,Suezmax,2023-06-10,2023-06-17,2023-06-21,2023-06-18,2023-07-12,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Basrah Light,142889,Glencore Energy,N,Antwerp,24,7
+VYG1125,9534567,Nord Meridian,Suezmax,2023-07-21,2023-07-28,2023-08-01,2023-07-30,2023-08-21,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,149629,Trafigura,N,Houston,22,10
+VYG1126,9534567,Nord Meridian,Suezmax,2023-08-29,2023-09-03,2023-09-07,2023-09-03,2023-09-27,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,144387,Vitol Group,N,Ulsan,24,6
+VYG1127,9534567,Nord Meridian,Suezmax,2023-10-06,2023-10-13,2023-10-17,2023-10-13,2023-11-01,Djeno,Congo,WAF,Fos-sur-Mer,France,MED,Bonny Light,152501,TotalEnergies Trading,N,Singapore,19,6
+VYG1128,9534567,Nord Meridian,Suezmax,2023-11-08,2023-11-12,2023-11-16,2023-11-14,2023-11-30,Escravos,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,144421,Litasco,N,Singapore,16,8
+VYG1129,9534567,Nord Meridian,Suezmax,2023-12-07,2023-12-11,2023-12-15,2023-12-13,2024-01-02,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,145337,Gunvor Group,N,Antwerp,20,11
+VYG1130,9534567,Nord Meridian,Suezmax,2024-01-11,2024-01-16,2024-01-20,2024-01-17,2024-02-03,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,142067,Vitol Group,N,Houston,17,5
+VYG1131,9534567,Nord Meridian,Suezmax,2024-02-08,2024-02-10,2024-02-14,2024-02-11,2024-03-10,Sullom Voe,UK,NS,Qingdao,China,FEA,Brent Blend,143899,Freepoint Commodities,N,Antwerp,28,5
+VYG1132,9534567,Nord Meridian,Suezmax,2024-03-17,2024-03-22,2024-03-26,2024-03-22,2024-04-09,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,149053,Gunvor Group,N,Ulsan,18,6
+VYG1133,9534567,Nord Meridian,Suezmax,2024-04-17,2024-04-24,2024-04-28,2024-04-26,2024-05-18,Basrah,Iraq,AG,Augusta,Italy,MED,Iranian Heavy,151070,Saudi Aramco Trading,N,Antwerp,22,9
+VYG1134,9534567,Nord Meridian,Suezmax,2024-05-27,2024-06-01,2024-06-05,2024-06-03,2024-06-18,Basrah,Iraq,AG,Trieste,Italy,MED,Arab Heavy,152735,Equinor Trading,N,Singapore,15,11
+VYG1135,9534567,Nord Meridian,Suezmax,2024-06-22,2024-06-24,2024-06-28,2024-06-25,2024-07-19,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,147779,Shell Trading,N,Houston,24,11
+VYG1136,9534567,Nord Meridian,Suezmax,2024-07-26,2024-07-30,2024-08-03,2024-08-01,2024-08-13,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Forcados,150633,Litasco,N,Singapore,12,11
+VYG1137,9534567,Nord Meridian,Suezmax,2024-08-22,2024-08-28,2024-09-01,2024-08-29,2024-09-14,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Heavy,139686,Chevron Products,N,Antwerp,16,8
+VYG1138,9534567,Nord Meridian,Suezmax,2024-09-22,2024-09-29,2024-10-03,2024-09-30,2024-10-27,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,154491,BP Oil International,N,Houston,27,11
+VYG1139,9534567,Nord Meridian,Suezmax,2024-11-01,2024-11-05,2024-11-09,2024-11-05,2024-11-30,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,147816,TotalEnergies Trading,N,Rotterdam,25,8
+VYG1140,9534567,Nord Meridian,Suezmax,2024-12-08,2024-12-11,2024-12-15,2024-12-13,2024-12-31,Djeno,Congo,WAF,,,,Forcados,144928,Vitol Group,Y,Houston,18,10
+VYG1141,9545678,Nord Horizon,Suezmax,2022-01-01,2022-01-03,2022-01-07,2022-01-04,2022-01-16,Djeno,Congo,WAF,Fos-sur-Mer,France,MED,Forcados,149358,Trafigura,N,Houston,12,9
+VYG1142,9545678,Nord Horizon,Suezmax,2022-01-24,2022-01-26,2022-01-30,2022-01-28,2022-02-21,Djeno,Congo,WAF,Qingdao,China,FEA,Bonny Light,138928,Equinor Trading,N,Rotterdam,24,9
+VYG1143,9545678,Nord Horizon,Suezmax,2022-03-02,2022-03-05,2022-03-09,2022-03-05,2022-03-27,Ras Tanura,Saudi Arabia,AG,Trieste,Italy,MED,Arab Light,138230,Gunvor Group,N,Singapore,22,11
+VYG1144,9545678,Nord Horizon,Suezmax,2022-04-03,2022-04-06,2022-04-10,2022-04-08,2022-04-28,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Arab Light,152221,Glencore Energy,N,Rotterdam,20,4
+VYG1145,9545678,Nord Horizon,Suezmax,2022-05-05,2022-05-11,2022-05-15,2022-05-11,2022-05-25,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,143624,Chevron Products,N,Singapore,14,10
+VYG1146,9545678,Nord Horizon,Suezmax,2022-06-03,2022-06-10,2022-06-14,2022-06-10,2022-07-04,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,142474,ExxonMobil Oil,N,Rotterdam,24,8
+VYG1147,9545678,Nord Horizon,Suezmax,2022-07-11,2022-07-18,2022-07-22,2022-07-20,2022-08-02,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,143528,Litasco,N,Ulsan,13,7
+VYG1148,9545678,Nord Horizon,Suezmax,2022-08-10,2022-08-14,2022-08-18,2022-08-16,2022-09-05,Basrah,Iraq,AG,Fos-sur-Mer,France,MED,Arab Heavy,144564,Chevron Products,N,Antwerp,20,11
+VYG1149,9545678,Nord Horizon,Suezmax,2022-09-12,2022-09-14,2022-09-18,2022-09-14,2022-10-05,Ras Tanura,Saudi Arabia,AG,Ulsan,South Korea,FEA,Arab Light,149163,Glencore Energy,N,Singapore,21,9
+VYG1150,9545678,Nord Horizon,Suezmax,2022-10-12,2022-10-14,2022-10-18,2022-10-15,2022-11-03,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Bonny Light,140269,Castleton Commodities,N,Ulsan,19,11
+VYG1151,9545678,Nord Horizon,Suezmax,2022-11-07,2022-11-11,2022-11-15,2022-11-11,2022-11-22,Mongstad,Norway,NS,Ulsan,South Korea,FEA,Brent Blend,138437,Mercuria Energy,N,Singapore,11,6
+VYG1152,9545678,Nord Horizon,Suezmax,2022-11-28,2022-12-05,2022-12-09,2022-12-06,2023-01-02,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,153219,BP Oil International,N,Ulsan,27,6
+VYG1153,9545678,Nord Horizon,Suezmax,2023-01-11,2023-01-17,2023-01-21,2023-01-18,2023-02-07,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Light,152242,Glencore Energy,N,Antwerp,20,7
+VYG1154,9545678,Nord Horizon,Suezmax,2023-02-12,2023-02-17,2023-02-21,2023-02-17,2023-03-16,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Basrah Light,149814,Saudi Aramco Trading,N,Houston,27,11
+VYG1155,9545678,Nord Horizon,Suezmax,2023-03-21,2023-03-26,2023-03-30,2023-03-27,2023-04-19,Ras Tanura,Saudi Arabia,AG,Fos-sur-Mer,France,MED,Arab Light,141949,Saudi Aramco Trading,N,Ulsan,23,6
+VYG1156,9545678,Nord Horizon,Suezmax,2023-04-24,2023-04-27,2023-05-01,2023-04-27,2023-05-13,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,146975,Freepoint Commodities,N,Houston,16,10
+VYG1157,9545678,Nord Horizon,Suezmax,2023-05-18,2023-05-24,2023-05-28,2023-05-25,2023-06-19,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,145637,ExxonMobil Oil,N,Houston,25,11
+VYG1158,9545678,Nord Horizon,Suezmax,2023-06-28,2023-07-03,2023-07-07,2023-07-05,2023-07-20,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Iranian Heavy,150525,TotalEnergies Trading,N,Antwerp,15,10
+VYG1159,9545678,Nord Horizon,Suezmax,2023-07-26,2023-07-29,2023-08-02,2023-07-29,2023-08-19,Ras Tanura,Saudi Arabia,AG,Fos-sur-Mer,France,MED,Iranian Heavy,148410,Equinor Trading,N,Houston,21,6
+VYG1160,9545678,Nord Horizon,Suezmax,2023-08-28,2023-09-03,2023-09-07,2023-09-04,2023-10-02,Basrah,Iraq,AG,,,,Basrah Light,153228,Gunvor Group,Y,Singapore,28,7
+VYG1161,9545678,Nord Horizon,Suezmax,2023-10-10,2023-10-12,2023-10-16,2023-10-12,2023-10-22,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Basrah Light,139188,Castleton Commodities,N,Houston,10,11
+VYG1162,9545678,Nord Horizon,Suezmax,2023-10-28,2023-10-31,2023-11-04,2023-11-01,2023-11-26,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,139912,Chevron Products,N,Antwerp,25,6
+VYG1163,9545678,Nord Horizon,Suezmax,2023-12-03,2023-12-07,2023-12-11,2023-12-09,2023-12-20,Ras Tanura,Saudi Arabia,AG,Augusta,Italy,MED,Basrah Light,141410,Shell Trading,N,Houston,11,11
+VYG1164,9545678,Nord Horizon,Suezmax,2023-12-25,2023-12-29,2024-01-02,2023-12-30,2024-01-13,Basrah,Iraq,AG,,,,Arab Heavy,139919,Equinor Trading,Y,Singapore,14,7
+VYG1165,9545678,Nord Horizon,Suezmax,2024-01-19,2024-01-26,2024-01-30,2024-01-26,2024-02-05,Djeno,Congo,WAF,Qingdao,China,FEA,Forcados,145845,Gunvor Group,N,Ulsan,10,4
+VYG1166,9545678,Nord Horizon,Suezmax,2024-02-10,2024-02-14,2024-02-18,2024-02-15,2024-03-07,Mongstad,Norway,NS,Ulsan,South Korea,FEA,Brent Blend,142247,Saudi Aramco Trading,N,Rotterdam,21,10
+VYG1167,9545678,Nord Horizon,Suezmax,2024-03-12,2024-03-15,2024-03-19,2024-03-16,2024-03-30,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,148887,Vitol Group,N,Houston,14,6
+VYG1168,9545678,Nord Horizon,Suezmax,2024-04-04,2024-04-10,2024-04-14,2024-04-10,2024-04-24,Sullom Voe,UK,NS,,,,Brent Blend,145394,Litasco,Y,Houston,14,11
+VYG1169,9545678,Nord Horizon,Suezmax,2024-05-03,2024-05-09,2024-05-13,2024-05-09,2024-05-22,Ras Tanura,Saudi Arabia,AG,,,,Iranian Heavy,140329,Equinor Trading,Y,Rotterdam,13,4
+VYG1170,9545678,Nord Horizon,Suezmax,2024-05-31,2024-06-02,2024-06-06,2024-06-02,2024-06-30,Bonny,Nigeria,WAF,,,,Bonny Light,139896,Mercuria Energy,Y,Singapore,28,5
+VYG1171,9545678,Nord Horizon,Suezmax,2024-07-08,2024-07-13,2024-07-17,2024-07-14,2024-07-28,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Forcados,147426,Equinor Trading,N,Antwerp,14,9
+VYG1172,9545678,Nord Horizon,Suezmax,2024-08-06,2024-08-10,2024-08-14,2024-08-10,2024-08-25,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,140715,Litasco,N,Antwerp,15,10
+VYG1173,9545678,Nord Horizon,Suezmax,2024-09-03,2024-09-09,2024-09-13,2024-09-11,2024-10-08,Djeno,Congo,WAF,Fos-sur-Mer,France,MED,Forcados,152585,Trafigura,N,Ulsan,27,8
+VYG1174,9545678,Nord Horizon,Suezmax,2024-10-14,2024-10-21,2024-10-25,2024-10-22,2024-11-19,Djeno,Congo,WAF,Antwerp,Belgium,NWE,Bonny Light,150926,Litasco,N,Singapore,28,11
+VYG1175,9545678,Nord Horizon,Suezmax,2024-11-23,2024-11-26,2024-11-30,2024-11-27,2024-12-22,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Bonny Light,141556,Vitol Group,N,Singapore,25,8
+VYG1176,9545678,Nord Horizon,Suezmax,2024-12-28,2025-01-02,2025-01-06,2025-01-02,2025-01-28,Ras Tanura,Saudi Arabia,AG,,,,Basrah Light,143599,Litasco,Y,Antwerp,26,4
+VYG1177,9556789,Nord Polaris,Suezmax,2022-01-01,2022-01-03,2022-01-07,2022-01-05,2022-01-18,Basrah,Iraq,AG,Trieste,Italy,MED,Basrah Light,152129,BP Oil International,N,Singapore,13,6
+VYG1178,9556789,Nord Polaris,Suezmax,2022-01-26,2022-02-01,2022-02-05,2022-02-01,2022-02-13,Djeno,Congo,WAF,Antwerp,Belgium,NWE,Forcados,142816,TotalEnergies Trading,N,Ulsan,12,11
+VYG1179,9556789,Nord Polaris,Suezmax,2022-02-21,2022-02-23,2022-02-27,2022-02-25,2022-03-20,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Bonny Light,148916,Trafigura,N,Rotterdam,23,4
+VYG1180,9556789,Nord Polaris,Suezmax,2022-03-29,2022-04-01,2022-04-05,2022-04-01,2022-04-29,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,150154,Litasco,N,Singapore,28,4
+VYG1181,9556789,Nord Polaris,Suezmax,2022-05-05,2022-05-07,2022-05-11,2022-05-08,2022-06-04,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Iranian Heavy,149379,BP Oil International,N,Rotterdam,27,5
+VYG1182,9556789,Nord Polaris,Suezmax,2022-06-11,2022-06-14,2022-06-18,2022-06-14,2022-07-08,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,145516,Equinor Trading,N,Houston,24,4
+VYG1183,9556789,Nord Polaris,Suezmax,2022-07-14,2022-07-19,2022-07-23,2022-07-21,2022-08-16,Djeno,Congo,WAF,,,,Bonny Light,150331,Trafigura,Y,Houston,26,5
+VYG1184,9556789,Nord Polaris,Suezmax,2022-08-21,2022-08-28,2022-09-01,2022-08-30,2022-09-25,Bonny,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,149656,Mercuria Energy,N,Houston,26,6
+VYG1185,9556789,Nord Polaris,Suezmax,2022-10-02,2022-10-06,2022-10-10,2022-10-08,2022-10-31,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,149871,TotalEnergies Trading,N,Singapore,23,6
+VYG1186,9556789,Nord Polaris,Suezmax,2022-11-08,2022-11-14,2022-11-18,2022-11-16,2022-11-28,Basrah,Iraq,AG,Trieste,Italy,MED,Basrah Light,140999,BP Oil International,N,Singapore,12,7
+VYG1187,9556789,Nord Polaris,Suezmax,2022-12-02,2022-12-08,2022-12-12,2022-12-09,2022-12-29,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,142305,Chevron Products,N,Antwerp,20,10
+VYG1188,9556789,Nord Polaris,Suezmax,2023-01-07,2023-01-12,2023-01-16,2023-01-13,2023-01-26,Basrah,Iraq,AG,Trieste,Italy,MED,Arab Heavy,156184,Glencore Energy,N,Antwerp,13,9
+VYG1189,9556789,Nord Polaris,Suezmax,2023-01-31,2023-02-03,2023-02-07,2023-02-05,2023-02-18,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,155401,Trafigura,N,Antwerp,13,5
+VYG1190,9556789,Nord Polaris,Suezmax,2023-02-23,2023-02-27,2023-03-03,2023-02-28,2023-03-27,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,146864,Chevron Products,N,Rotterdam,27,9
+VYG1191,9556789,Nord Polaris,Suezmax,2023-04-02,2023-04-07,2023-04-11,2023-04-07,2023-05-01,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Heavy,153327,Trafigura,N,Rotterdam,24,11
+VYG1192,9556789,Nord Polaris,Suezmax,2023-05-08,2023-05-12,2023-05-16,2023-05-12,2023-06-06,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,153569,Saudi Aramco Trading,N,Rotterdam,25,11
+VYG1193,9556789,Nord Polaris,Suezmax,2023-06-13,2023-06-15,2023-06-19,2023-06-15,2023-06-29,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,141170,Equinor Trading,N,Antwerp,14,5
+VYG1194,9556789,Nord Polaris,Suezmax,2023-07-08,2023-07-15,2023-07-19,2023-07-16,2023-08-11,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,147114,Vitol Group,N,Ulsan,26,9
+VYG1195,9556789,Nord Polaris,Suezmax,2023-08-18,2023-08-21,2023-08-25,2023-08-22,2023-09-13,Ras Tanura,Saudi Arabia,AG,Fos-sur-Mer,France,MED,Iranian Heavy,147346,BP Oil International,N,Singapore,22,4
+VYG1196,9556789,Nord Polaris,Suezmax,2023-09-20,2023-09-25,2023-09-29,2023-09-27,2023-10-17,Djeno,Congo,WAF,Qingdao,China,FEA,Bonny Light,146835,Mercuria Energy,N,Rotterdam,20,7
+VYG1197,9556789,Nord Polaris,Suezmax,2023-10-23,2023-10-27,2023-10-31,2023-10-29,2023-11-10,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,151752,Castleton Commodities,N,Ulsan,12,4
+VYG1198,9556789,Nord Polaris,Suezmax,2023-11-16,2023-11-18,2023-11-22,2023-11-20,2023-12-14,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Light,152856,Shell Trading,N,Singapore,24,5
+VYG1199,9556789,Nord Polaris,Suezmax,2023-12-21,2023-12-28,2024-01-01,2023-12-29,2024-01-13,Basrah,Iraq,AG,Fos-sur-Mer,France,MED,Basrah Light,143772,Equinor Trading,N,Rotterdam,15,7
+VYG1200,9556789,Nord Polaris,Suezmax,2024-01-20,2024-01-22,2024-01-26,2024-01-23,2024-02-11,Sullom Voe,UK,NS,,,,Brent Blend,148503,Litasco,Y,Houston,19,6
+VYG1201,9556789,Nord Polaris,Suezmax,2024-02-15,2024-02-22,2024-02-26,2024-02-22,2024-03-16,Djeno,Congo,WAF,Trieste,Italy,MED,Forcados,142571,Equinor Trading,N,Rotterdam,23,5
+VYG1202,9556789,Nord Polaris,Suezmax,2024-03-21,2024-03-23,2024-03-27,2024-03-23,2024-04-08,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,155226,Litasco,N,Ulsan,16,10
+VYG1203,9556789,Nord Polaris,Suezmax,2024-04-12,2024-04-19,2024-04-23,2024-04-20,2024-05-19,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,141949,BP Oil International,N,Singapore,29,7
+VYG1204,9556789,Nord Polaris,Suezmax,2024-05-23,2024-05-30,2024-06-03,2024-05-30,2024-06-13,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Light,154332,Glencore Energy,N,Ulsan,14,8
+VYG1205,9556789,Nord Polaris,Suezmax,2024-06-21,2024-06-26,2024-06-30,2024-06-27,2024-07-17,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,144852,Equinor Trading,N,Antwerp,20,7
+VYG1206,9556789,Nord Polaris,Suezmax,2024-07-21,2024-07-23,2024-07-27,2024-07-25,2024-08-11,Ras Tanura,Saudi Arabia,AG,Augusta,Italy,MED,Basrah Light,145536,TotalEnergies Trading,N,Antwerp,17,8
+VYG1207,9556789,Nord Polaris,Suezmax,2024-08-20,2024-08-24,2024-08-28,2024-08-26,2024-09-13,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,153157,BP Oil International,N,Houston,18,4
+VYG1208,9556789,Nord Polaris,Suezmax,2024-09-18,2024-09-23,2024-09-27,2024-09-25,2024-10-13,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,142406,Gunvor Group,N,Rotterdam,18,4
+VYG1209,9556789,Nord Polaris,Suezmax,2024-10-19,2024-10-22,2024-10-26,2024-10-22,2024-11-17,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Basrah Light,147417,Mercuria Energy,N,Houston,26,4
+VYG1210,9556789,Nord Polaris,Suezmax,2024-11-23,2024-11-26,2024-11-30,2024-11-26,2024-12-23,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Forcados,154793,Freepoint Commodities,N,Antwerp,27,9
+VYG1211,9567890,Nord Crest,Aframax,2022-01-01,2022-01-05,2022-01-09,2022-01-06,2022-01-26,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,102206,Gunvor Group,N,Ulsan,20,6
+VYG1212,9567890,Nord Crest,Aframax,2022-01-30,2022-02-01,2022-02-05,2022-02-03,2022-02-14,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,105289,Freepoint Commodities,N,Antwerp,11,11
+VYG1213,9567890,Nord Crest,Aframax,2022-02-19,2022-02-23,2022-02-27,2022-02-24,2022-03-16,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,104350,Mercuria Energy,N,Rotterdam,20,6
+VYG1214,9567890,Nord Crest,Aframax,2022-03-20,2022-03-24,2022-03-28,2022-03-24,2022-04-06,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,110211,Chevron Products,N,Houston,13,11
+VYG1215,9567890,Nord Crest,Aframax,2022-04-10,2022-04-12,2022-04-16,2022-04-13,2022-05-04,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,102300,Trafigura,N,Antwerp,21,10
+VYG1216,9567890,Nord Crest,Aframax,2022-05-08,2022-05-12,2022-05-16,2022-05-12,2022-05-25,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,106311,Castleton Commodities,N,Houston,13,11
+VYG1217,9567890,Nord Crest,Aframax,2022-05-29,2022-06-02,2022-06-06,2022-06-04,2022-06-22,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,101555,Litasco,N,Singapore,18,10
+VYG1218,9567890,Nord Crest,Aframax,2022-07-01,2022-07-03,2022-07-07,2022-07-05,2022-07-31,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,101167,Saudi Aramco Trading,N,Houston,26,9
+VYG1219,9567890,Nord Crest,Aframax,2022-08-08,2022-08-15,2022-08-19,2022-08-17,2022-09-02,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,103309,Equinor Trading,N,Rotterdam,16,4
+VYG1220,9567890,Nord Crest,Aframax,2022-09-10,2022-09-15,2022-09-19,2022-09-16,2022-09-27,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,101835,Saudi Aramco Trading,N,Ulsan,11,10
+VYG1221,9567890,Nord Crest,Aframax,2022-10-02,2022-10-09,2022-10-13,2022-10-10,2022-10-28,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,99466,Vitol Group,N,Houston,18,8
+VYG1222,9567890,Nord Crest,Aframax,2022-11-06,2022-11-09,2022-11-13,2022-11-09,2022-12-06,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,100898,Vitol Group,N,Antwerp,27,4
+VYG1223,9567890,Nord Crest,Aframax,2022-12-12,2022-12-14,2022-12-18,2022-12-16,2023-01-07,Bonny,Nigeria,WAF,Corpus Christi,USA,USGC,Bonny Light,109856,Freepoint Commodities,N,Rotterdam,22,9
+VYG1224,9567890,Nord Crest,Aframax,2023-01-12,2023-01-16,2023-01-20,2023-01-18,2023-02-11,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,106216,Castleton Commodities,N,Antwerp,24,7
+VYG1225,9567890,Nord Crest,Aframax,2023-02-15,2023-02-19,2023-02-23,2023-02-20,2023-03-21,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,101442,Litasco,N,Ulsan,29,4
+VYG1226,9567890,Nord Crest,Aframax,2023-03-29,2023-04-05,2023-04-09,2023-04-07,2023-04-28,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,109525,Freepoint Commodities,N,Singapore,21,4
+VYG1227,9567890,Nord Crest,Aframax,2023-05-06,2023-05-12,2023-05-16,2023-05-12,2023-06-10,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,106897,Gunvor Group,N,Ulsan,29,5
+VYG1228,9567890,Nord Crest,Aframax,2023-06-15,2023-06-19,2023-06-23,2023-06-21,2023-07-15,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,103995,Equinor Trading,N,Ulsan,24,6
+VYG1229,9567890,Nord Crest,Aframax,2023-07-24,2023-07-29,2023-08-02,2023-07-29,2023-08-22,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,109690,Chevron Products,N,Houston,24,6
+VYG1230,9567890,Nord Crest,Aframax,2023-08-28,2023-08-31,2023-09-04,2023-09-01,2023-09-19,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,104412,Gunvor Group,N,Houston,18,6
+VYG1231,9567890,Nord Crest,Aframax,2023-09-24,2023-09-26,2023-09-30,2023-09-28,2023-10-09,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,106847,Equinor Trading,N,Rotterdam,11,9
+VYG1232,9567890,Nord Crest,Aframax,2023-10-16,2023-10-19,2023-10-23,2023-10-19,2023-11-15,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,108233,Freepoint Commodities,N,Rotterdam,27,6
+VYG1233,9567890,Nord Crest,Aframax,2023-11-24,2023-12-01,2023-12-05,2023-12-03,2023-12-17,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,100901,Shell Trading,N,Singapore,14,10
+VYG1234,9567890,Nord Crest,Aframax,2023-12-22,2023-12-28,2024-01-01,2023-12-28,2024-01-12,Novorossiysk,Russia,BS,Corpus Christi,USA,USGC,Urals,109726,BP Oil International,N,Houston,15,6
+VYG1235,9567890,Nord Crest,Aframax,2024-01-20,2024-01-23,2024-01-27,2024-01-25,2024-02-14,Primorsk,Russia,BS,Fos-sur-Mer,France,MED,Urals,110208,ExxonMobil Oil,N,Rotterdam,20,8
+VYG1236,9567890,Nord Crest,Aframax,2024-02-21,2024-02-27,2024-03-02,2024-02-27,2024-03-14,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,110470,Gunvor Group,N,Houston,16,9
+VYG1237,9567890,Nord Crest,Aframax,2024-03-21,2024-03-25,2024-03-29,2024-03-26,2024-04-18,Bonny,Nigeria,WAF,,,,Bonny Light,103960,Vitol Group,Y,Ulsan,23,9
+VYG1238,9567890,Nord Crest,Aframax,2024-04-27,2024-05-04,2024-05-08,2024-05-05,2024-05-22,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,109090,Mercuria Energy,N,Rotterdam,17,7
+VYG1239,9567890,Nord Crest,Aframax,2024-05-27,2024-05-30,2024-06-03,2024-06-01,2024-06-21,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,106583,Litasco,N,Ulsan,20,10
+VYG1240,9567890,Nord Crest,Aframax,2024-06-27,2024-07-03,2024-07-07,2024-07-03,2024-07-21,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,108969,Glencore Energy,N,Rotterdam,18,11
+VYG1241,9567890,Nord Crest,Aframax,2024-07-30,2024-08-06,2024-08-10,2024-08-06,2024-08-30,Primorsk,Russia,BS,Fos-sur-Mer,France,MED,Urals,108057,Mercuria Energy,N,Singapore,24,4
+VYG1242,9567890,Nord Crest,Aframax,2024-09-05,2024-09-10,2024-09-14,2024-09-11,2024-10-04,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,102709,Chevron Products,N,Singapore,23,5
+VYG1243,9567890,Nord Crest,Aframax,2024-10-09,2024-10-12,2024-10-16,2024-10-13,2024-11-03,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,101913,Chevron Products,N,Houston,21,9
+VYG1244,9567890,Nord Crest,Aframax,2024-11-11,2024-11-14,2024-11-18,2024-11-16,2024-12-07,Bonny,Nigeria,WAF,,,,Bonny Light,103238,Equinor Trading,Y,Antwerp,21,5
+VYG1245,9567890,Nord Crest,Aframax,2024-12-13,2024-12-19,2024-12-23,2024-12-19,2025-01-14,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,108189,ExxonMobil Oil,N,Ulsan,26,8
+VYG1246,9578901,Nord Apex,Aframax,2022-01-01,2022-01-03,2022-01-07,2022-01-04,2022-01-23,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,102970,Castleton Commodities,N,Houston,19,11
+VYG1247,9578901,Nord Apex,Aframax,2022-01-27,2022-01-31,2022-02-04,2022-02-01,2022-02-23,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,112479,BP Oil International,N,Houston,22,9
+VYG1248,9578901,Nord Apex,Aframax,2022-02-27,2022-03-06,2022-03-10,2022-03-06,2022-03-27,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,111375,ExxonMobil Oil,N,Houston,21,10
+VYG1249,9578901,Nord Apex,Aframax,2022-04-01,2022-04-06,2022-04-10,2022-04-07,2022-04-19,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,103228,Vitol Group,N,Houston,12,5
+VYG1250,9578901,Nord Apex,Aframax,2022-04-25,2022-04-30,2022-05-04,2022-05-01,2022-05-15,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,108705,Mercuria Energy,N,Antwerp,14,8
+VYG1251,9578901,Nord Apex,Aframax,2022-05-19,2022-05-26,2022-05-30,2022-05-26,2022-06-24,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,102294,Litasco,N,Ulsan,29,9
+VYG1252,9578901,Nord Apex,Aframax,2022-07-02,2022-07-04,2022-07-08,2022-07-06,2022-07-22,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,106084,Trafigura,N,Rotterdam,16,6
+VYG1253,9578901,Nord Apex,Aframax,2022-07-27,2022-07-29,2022-08-02,2022-07-30,2022-08-22,Bonny,Nigeria,WAF,Corpus Christi,USA,USGC,Bonny Light,110255,Castleton Commodities,N,Antwerp,23,9
+VYG1254,9578901,Nord Apex,Aframax,2022-08-30,2022-09-06,2022-09-10,2022-09-08,2022-10-06,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,109811,Chevron Products,N,Ulsan,28,7
+VYG1255,9578901,Nord Apex,Aframax,2022-10-14,2022-10-20,2022-10-24,2022-10-20,2022-11-08,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,102854,Chevron Products,N,Ulsan,19,8
+VYG1256,9578901,Nord Apex,Aframax,2022-11-17,2022-11-24,2022-11-28,2022-11-24,2022-12-10,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,101976,Castleton Commodities,N,Rotterdam,16,5
+VYG1257,9578901,Nord Apex,Aframax,2022-12-17,2022-12-19,2022-12-23,2022-12-19,2022-12-29,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,110108,Chevron Products,N,Ulsan,10,4
+VYG1258,9578901,Nord Apex,Aframax,2023-01-02,2023-01-06,2023-01-10,2023-01-07,2023-01-31,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,102888,Gunvor Group,N,Houston,24,10
+VYG1259,9578901,Nord Apex,Aframax,2023-02-04,2023-02-11,2023-02-15,2023-02-11,2023-03-09,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,110620,Glencore Energy,N,Antwerp,26,4
+VYG1260,9578901,Nord Apex,Aframax,2023-03-13,2023-03-17,2023-03-21,2023-03-18,2023-04-07,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,109851,Freepoint Commodities,N,Singapore,20,9
+VYG1261,9578901,Nord Apex,Aframax,2023-04-12,2023-04-17,2023-04-21,2023-04-18,2023-05-13,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,105430,Litasco,N,Ulsan,25,7
+VYG1262,9578901,Nord Apex,Aframax,2023-05-18,2023-05-23,2023-05-27,2023-05-23,2023-06-14,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,102188,TotalEnergies Trading,N,Singapore,22,10
+VYG1263,9578901,Nord Apex,Aframax,2023-06-20,2023-06-23,2023-06-27,2023-06-23,2023-07-06,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,105782,BP Oil International,N,Houston,13,9
+VYG1264,9578901,Nord Apex,Aframax,2023-07-15,2023-07-22,2023-07-26,2023-07-22,2023-08-20,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,105718,Equinor Trading,N,Ulsan,29,9
+VYG1265,9578901,Nord Apex,Aframax,2023-08-25,2023-09-01,2023-09-05,2023-09-03,2023-10-02,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,103411,Freepoint Commodities,N,Ulsan,29,8
+VYG1266,9578901,Nord Apex,Aframax,2023-10-07,2023-10-11,2023-10-15,2023-10-12,2023-11-09,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,107713,Equinor Trading,N,Rotterdam,28,6
+VYG1267,9578901,Nord Apex,Aframax,2023-11-17,2023-11-22,2023-11-26,2023-11-23,2023-12-19,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,101505,Castleton Commodities,N,Antwerp,26,8
+VYG1268,9578901,Nord Apex,Aframax,2023-12-23,2023-12-30,2024-01-03,2023-12-31,2024-01-17,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,106014,ExxonMobil Oil,N,Houston,17,7
+VYG1269,9578901,Nord Apex,Aframax,2024-01-22,2024-01-28,2024-02-01,2024-01-28,2024-02-23,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,105631,BP Oil International,N,Singapore,26,10
+VYG1270,9578901,Nord Apex,Aframax,2024-02-28,2024-03-01,2024-03-05,2024-03-02,2024-03-15,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,108981,Equinor Trading,N,Rotterdam,13,6
+VYG1271,9578901,Nord Apex,Aframax,2024-03-24,2024-03-26,2024-03-30,2024-03-27,2024-04-06,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,111486,Mercuria Energy,N,Houston,10,10
+VYG1272,9578901,Nord Apex,Aframax,2024-04-13,2024-04-19,2024-04-23,2024-04-19,2024-05-15,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,106675,Chevron Products,N,Singapore,26,11
+VYG1273,9578901,Nord Apex,Aframax,2024-05-24,2024-05-31,2024-06-04,2024-06-01,2024-06-12,Novorossiysk,Russia,BS,Corpus Christi,USA,USGC,Urals,107936,Freepoint Commodities,N,Houston,11,7
+VYG1274,9578901,Nord Apex,Aframax,2024-06-17,2024-06-20,2024-06-24,2024-06-22,2024-07-02,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,103580,Shell Trading,N,Ulsan,10,5
+VYG1275,9578901,Nord Apex,Aframax,2024-07-06,2024-07-10,2024-07-14,2024-07-11,2024-07-24,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,111093,Vitol Group,N,Ulsan,13,5
+VYG1276,9578901,Nord Apex,Aframax,2024-07-29,2024-08-02,2024-08-06,2024-08-03,2024-08-17,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,104245,Saudi Aramco Trading,N,Ulsan,14,4
+VYG1277,9578901,Nord Apex,Aframax,2024-08-26,2024-08-31,2024-09-04,2024-09-01,2024-09-15,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,111891,Vitol Group,N,Rotterdam,14,9
+VYG1278,9578901,Nord Apex,Aframax,2024-09-19,2024-09-25,2024-09-29,2024-09-25,2024-10-06,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,102602,ExxonMobil Oil,N,Antwerp,11,4
+VYG1279,9578901,Nord Apex,Aframax,2024-10-11,2024-10-18,2024-10-22,2024-10-20,2024-11-14,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,107249,Vitol Group,N,Singapore,25,5
+VYG1280,9578901,Nord Apex,Aframax,2024-11-23,2024-11-27,2024-12-01,2024-11-27,2024-12-11,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,112109,Freepoint Commodities,N,Antwerp,14,7
+VYG1281,9578901,Nord Apex,Aframax,2024-12-15,2024-12-20,2024-12-24,2024-12-22,2025-01-17,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,112454,Freepoint Commodities,N,Singapore,26,6
+VYG1282,9590000,Nord Venture,VLCC,2022-01-01,2022-01-06,2022-01-10,2022-01-07,2022-01-22,Basrah,Iraq,AG,Houston,USA,USGC,Arab Heavy,274086,Glencore Energy,N,Antwerp,15,11
+VYG1283,9590000,Nord Venture,VLCC,2022-01-30,2022-02-04,2022-02-08,2022-02-05,2022-02-17,Ras Tanura,Saudi Arabia,AG,Singapore,Singapore,SEA,Arab Heavy,267997,TotalEnergies Trading,N,Antwerp,12,11
+VYG1284,9590000,Nord Venture,VLCC,2022-02-21,2022-02-27,2022-03-03,2022-03-01,2022-03-11,Basrah,Iraq,AG,Houston,USA,USGC,Arab Heavy,274418,BP Oil International,N,Rotterdam,10,8
+VYG1285,9590000,Nord Venture,VLCC,2022-03-17,2022-03-21,2022-03-25,2022-03-23,2022-04-14,Kharg Island,Iran,AG,Rotterdam,Netherlands,NWE,Basrah Light,290036,Glencore Energy,N,Singapore,22,9
+VYG1286,9590000,Nord Venture,VLCC,2022-04-20,2022-04-26,2022-04-30,2022-04-26,2022-05-11,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,276002,TotalEnergies Trading,N,Ulsan,15,7
+VYG1287,9590000,Nord Venture,VLCC,2022-05-16,2022-05-21,2022-05-25,2022-05-22,2022-06-12,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Iranian Heavy,272542,Saudi Aramco Trading,N,Rotterdam,21,4
+VYG1288,9590000,Nord Venture,VLCC,2022-06-18,2022-06-23,2022-06-27,2022-06-23,2022-07-09,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,273835,Equinor Trading,N,Ulsan,16,5
+VYG1289,9590000,Nord Venture,VLCC,2022-07-18,2022-07-21,2022-07-25,2022-07-23,2022-08-13,Bonny,Nigeria,WAF,Ningbo,China,FEA,Bonny Light,269911,Equinor Trading,N,Antwerp,21,8
+VYG1290,9590000,Nord Venture,VLCC,2022-08-21,2022-08-28,2022-09-01,2022-08-30,2022-09-12,Kharg Island,Iran,AG,Ningbo,China,FEA,Arab Light,263806,Litasco,N,Antwerp,13,8
+VYG1291,9590000,Nord Venture,VLCC,2022-09-19,2022-09-26,2022-09-30,2022-09-28,2022-10-15,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Light,279493,Shell Trading,N,Houston,17,11
+VYG1292,9590000,Nord Venture,VLCC,2022-10-19,2022-10-24,2022-10-28,2022-10-24,2022-11-21,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Arab Light,263030,Equinor Trading,N,Houston,28,9
+VYG1293,9590000,Nord Venture,VLCC,2022-11-27,2022-12-03,2022-12-07,2022-12-03,2022-12-30,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,276119,Chevron Products,N,Singapore,27,7
+VYG1294,9590000,Nord Venture,VLCC,2023-01-03,2023-01-08,2023-01-12,2023-01-10,2023-02-07,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Basrah Light,273357,Chevron Products,N,Antwerp,28,6
+VYG1295,9590000,Nord Venture,VLCC,2023-02-16,2023-02-21,2023-02-25,2023-02-21,2023-03-08,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,285332,Mercuria Energy,N,Antwerp,15,5
+VYG1296,9590000,Nord Venture,VLCC,2023-03-14,2023-03-17,2023-03-21,2023-03-18,2023-04-01,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Forcados,287738,Saudi Aramco Trading,N,Antwerp,14,11
+VYG1297,9590000,Nord Venture,VLCC,2023-04-10,2023-04-13,2023-04-17,2023-04-15,2023-05-06,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Light,273399,Freepoint Commodities,N,Antwerp,21,4
+VYG1298,9590000,Nord Venture,VLCC,2023-05-10,2023-05-14,2023-05-18,2023-05-16,2023-06-05,Escravos,Nigeria,WAF,Houston,USA,USGC,Bonny Light,291507,Mercuria Energy,N,Houston,20,7
+VYG1299,9590000,Nord Venture,VLCC,2023-06-13,2023-06-18,2023-06-22,2023-06-20,2023-07-08,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Basrah Light,274685,Freepoint Commodities,N,Houston,18,5
+VYG1300,9590000,Nord Venture,VLCC,2023-07-12,2023-07-19,2023-07-23,2023-07-21,2023-08-04,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Arab Light,271293,Gunvor Group,N,Houston,14,10
+VYG1301,9590000,Nord Venture,VLCC,2023-08-12,2023-08-19,2023-08-23,2023-08-19,2023-08-29,Basrah,Iraq,AG,Qingdao,China,FEA,Basrah Light,276057,Gunvor Group,N,Singapore,10,7
+VYG1302,9590000,Nord Venture,VLCC,2023-09-06,2023-09-11,2023-09-15,2023-09-11,2023-10-03,Escravos,Nigeria,WAF,Ulsan,South Korea,FEA,Bonny Light,280677,BP Oil International,N,Rotterdam,22,9
+VYG1303,9590000,Nord Venture,VLCC,2023-10-07,2023-10-09,2023-10-13,2023-10-10,2023-10-29,Ras Tanura,Saudi Arabia,AG,Ulsan,South Korea,FEA,Arab Light,268626,Litasco,N,Ulsan,19,7
+VYG1304,9590000,Nord Venture,VLCC,2023-11-02,2023-11-07,2023-11-11,2023-11-07,2023-11-26,Kharg Island,Iran,AG,Ningbo,China,FEA,Arab Light,290470,Chevron Products,N,Antwerp,19,6
+VYG1305,9590000,Nord Venture,VLCC,2023-12-01,2023-12-05,2023-12-09,2023-12-05,2023-12-31,Bonny,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,264645,Mercuria Energy,N,Ulsan,26,8
+VYG1306,9590000,Nord Venture,VLCC,2024-01-07,2024-01-14,2024-01-18,2024-01-16,2024-02-12,Escravos,Nigeria,WAF,Houston,USA,USGC,Forcados,275086,Freepoint Commodities,N,Rotterdam,27,9
+VYG1307,9590000,Nord Venture,VLCC,2024-02-18,2024-02-20,2024-02-24,2024-02-20,2024-03-11,Basrah,Iraq,AG,Ningbo,China,FEA,Basrah Light,290809,Gunvor Group,N,Rotterdam,20,9
+VYG1308,9590000,Nord Venture,VLCC,2024-03-15,2024-03-18,2024-03-22,2024-03-20,2024-04-09,Bonny,Nigeria,WAF,Ningbo,China,FEA,Bonny Light,263584,TotalEnergies Trading,N,Houston,20,6
+VYG1309,9590000,Nord Venture,VLCC,2024-04-14,2024-04-21,2024-04-25,2024-04-23,2024-05-19,Kharg Island,Iran,AG,Houston,USA,USGC,Arab Light,264022,Gunvor Group,N,Antwerp,26,4
+VYG1310,9590000,Nord Venture,VLCC,2024-05-28,2024-06-04,2024-06-08,2024-06-04,2024-06-28,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Basrah Light,279149,Chevron Products,N,Singapore,24,8
+VYG1311,9590000,Nord Venture,VLCC,2024-07-06,2024-07-10,2024-07-14,2024-07-12,2024-07-30,Ruwais,UAE,AG,Houston,USA,USGC,Arab Light,291108,Chevron Products,N,Ulsan,18,6
+VYG1312,9590000,Nord Venture,VLCC,2024-08-04,2024-08-10,2024-08-14,2024-08-10,2024-08-30,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Basrah Light,265049,Litasco,N,Ulsan,20,6
+VYG1313,9590000,Nord Venture,VLCC,2024-09-07,2024-09-14,2024-09-18,2024-09-14,2024-10-08,Basrah,Iraq,AG,Singapore,Singapore,SEA,Arab Light,291321,TotalEnergies Trading,N,Singapore,24,8
+VYG1314,9590000,Nord Venture,VLCC,2024-10-17,2024-10-21,2024-10-25,2024-10-23,2024-11-14,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,278501,BP Oil International,N,Singapore,22,5
+VYG1315,9590000,Nord Venture,VLCC,2024-11-20,2024-11-25,2024-11-29,2024-11-27,2024-12-24,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,283244,BP Oil International,N,Antwerp,27,10
+VYG1316,9590000,Nord Venture,VLCC,2024-12-30,2025-01-03,2025-01-07,2025-01-04,2025-01-31,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Iranian Heavy,273906,Equinor Trading,N,Ulsan,27,7
+VYG1317,9591111,Nord Eagle,VLCC,2022-01-01,2022-01-03,2022-01-07,2022-01-05,2022-01-16,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Basrah Light,278306,Litasco,N,Ulsan,11,5
+VYG1318,9591111,Nord Eagle,VLCC,2022-01-25,2022-02-01,2022-02-05,2022-02-02,2022-02-13,Bonny,Nigeria,WAF,Ningbo,China,FEA,Bonny Light,271075,Castleton Commodities,N,Rotterdam,11,4
+VYG1319,9591111,Nord Eagle,VLCC,2022-02-18,2022-02-25,2022-03-01,2022-02-27,2022-03-13,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Arab Light,293058,ExxonMobil Oil,N,Rotterdam,14,10
+VYG1320,9591111,Nord Eagle,VLCC,2022-03-22,2022-03-24,2022-03-28,2022-03-24,2022-04-14,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Iranian Heavy,266786,Equinor Trading,N,Antwerp,21,4
+VYG1321,9591111,Nord Eagle,VLCC,2022-04-18,2022-04-21,2022-04-25,2022-04-21,2022-05-12,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Basrah Light,281050,Vitol Group,N,Antwerp,21,9
+VYG1322,9591111,Nord Eagle,VLCC,2022-05-19,2022-05-25,2022-05-29,2022-05-25,2022-06-14,Ras Tanura,Saudi Arabia,AG,Singapore,Singapore,SEA,Iranian Heavy,290890,BP Oil International,N,Ulsan,20,10
+VYG1323,9591111,Nord Eagle,VLCC,2022-06-21,2022-06-28,2022-07-02,2022-06-28,2022-07-14,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,271680,Saudi Aramco Trading,N,Ulsan,16,7
+VYG1324,9591111,Nord Eagle,VLCC,2022-07-20,2022-07-25,2022-07-29,2022-07-27,2022-08-22,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Iranian Heavy,281148,Chevron Products,N,Rotterdam,26,7
+VYG1325,9591111,Nord Eagle,VLCC,2022-08-28,2022-08-31,2022-09-04,2022-09-01,2022-09-17,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Basrah Light,285132,Vitol Group,N,Singapore,16,5
+VYG1326,9591111,Nord Eagle,VLCC,2022-09-23,2022-09-29,2022-10-03,2022-09-29,2022-10-24,Basrah,Iraq,AG,Singapore,Singapore,SEA,Basrah Light,293073,BP Oil International,N,Rotterdam,25,9
+VYG1327,9591111,Nord Eagle,VLCC,2022-11-01,2022-11-04,2022-11-08,2022-11-06,2022-11-18,Ruwais,UAE,AG,Qingdao,China,FEA,Iranian Heavy,280518,TotalEnergies Trading,N,Singapore,12,4
+VYG1328,9591111,Nord Eagle,VLCC,2022-11-25,2022-12-02,2022-12-06,2022-12-03,2022-12-18,Ruwais,UAE,AG,Ningbo,China,FEA,Arab Heavy,279266,Saudi Aramco Trading,N,Antwerp,15,11
+VYG1329,9591111,Nord Eagle,VLCC,2022-12-27,2022-12-31,2023-01-04,2023-01-02,2023-01-13,Escravos,Nigeria,WAF,Houston,USA,USGC,Forcados,271741,BP Oil International,N,Houston,11,9
+VYG1330,9591111,Nord Eagle,VLCC,2023-01-20,2023-01-25,2023-01-29,2023-01-25,2023-02-15,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,291872,Shell Trading,N,Houston,21,11
+VYG1331,9591111,Nord Eagle,VLCC,2023-02-20,2023-02-24,2023-02-28,2023-02-26,2023-03-09,Ras Tanura,Saudi Arabia,AG,Houston,USA,USGC,Basrah Light,284390,Chevron Products,N,Houston,11,9
+VYG1332,9591111,Nord Eagle,VLCC,2023-03-17,2023-03-24,2023-03-28,2023-03-25,2023-04-13,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,283875,Trafigura,N,Rotterdam,19,9
+VYG1333,9591111,Nord Eagle,VLCC,2023-04-18,2023-04-22,2023-04-26,2023-04-23,2023-05-16,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Basrah Light,293793,TotalEnergies Trading,N,Antwerp,23,9
+VYG1334,9591111,Nord Eagle,VLCC,2023-05-22,2023-05-27,2023-05-31,2023-05-28,2023-06-19,Ruwais,UAE,AG,Houston,USA,USGC,Basrah Light,287050,BP Oil International,N,Houston,22,10
+VYG1335,9591111,Nord Eagle,VLCC,2023-06-25,2023-06-29,2023-07-03,2023-06-30,2023-07-14,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Iranian Heavy,268827,Chevron Products,N,Houston,14,7
+VYG1336,9591111,Nord Eagle,VLCC,2023-07-19,2023-07-23,2023-07-27,2023-07-24,2023-08-05,Bonny,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,273084,Freepoint Commodities,N,Ulsan,12,9
+VYG1337,9591111,Nord Eagle,VLCC,2023-08-12,2023-08-14,2023-08-18,2023-08-14,2023-09-12,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Bonny Light,270829,Gunvor Group,N,Singapore,29,7
+VYG1338,9591111,Nord Eagle,VLCC,2023-09-17,2023-09-20,2023-09-24,2023-09-21,2023-10-04,Ras Tanura,Saudi Arabia,AG,Ningbo,China,FEA,Arab Light,286195,Saudi Aramco Trading,N,Antwerp,13,11
+VYG1339,9591111,Nord Eagle,VLCC,2023-10-13,2023-10-16,2023-10-20,2023-10-18,2023-11-04,Kharg Island,Iran,AG,Houston,USA,USGC,Basrah Light,269317,Gunvor Group,N,Singapore,17,7
+VYG1340,9591111,Nord Eagle,VLCC,2023-11-09,2023-11-12,2023-11-16,2023-11-12,2023-11-29,Kharg Island,Iran,AG,Rotterdam,Netherlands,NWE,Arab Heavy,286101,Trafigura,N,Singapore,17,5
+VYG1341,9591111,Nord Eagle,VLCC,2023-12-03,2023-12-05,2023-12-09,2023-12-06,2023-12-25,Kharg Island,Iran,AG,Ningbo,China,FEA,Arab Heavy,287394,Glencore Energy,N,Rotterdam,19,4
+VYG1342,9591111,Nord Eagle,VLCC,2024-01-02,2024-01-05,2024-01-09,2024-01-06,2024-01-24,Kharg Island,Iran,AG,Houston,USA,USGC,Iranian Heavy,275740,Equinor Trading,N,Antwerp,18,10
+VYG1343,9591111,Nord Eagle,VLCC,2024-01-29,2024-02-01,2024-02-05,2024-02-01,2024-02-20,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,272131,Freepoint Commodities,N,Ulsan,19,11
+VYG1344,9591111,Nord Eagle,VLCC,2024-02-28,2024-03-02,2024-03-06,2024-03-02,2024-03-15,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Arab Light,278088,Equinor Trading,N,Houston,13,6
+VYG1345,9591111,Nord Eagle,VLCC,2024-03-23,2024-03-26,2024-03-30,2024-03-28,2024-04-14,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Forcados,287850,Chevron Products,N,Rotterdam,17,4
+VYG1346,9591111,Nord Eagle,VLCC,2024-04-23,2024-04-27,2024-05-01,2024-04-28,2024-05-20,Basrah,Iraq,AG,Ningbo,China,FEA,Arab Light,294944,Trafigura,N,Houston,22,9
+VYG1347,9591111,Nord Eagle,VLCC,2024-05-26,2024-05-31,2024-06-04,2024-06-01,2024-06-28,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Light,288702,Gunvor Group,N,Ulsan,27,6
+VYG1348,9591111,Nord Eagle,VLCC,2024-07-04,2024-07-10,2024-07-14,2024-07-10,2024-08-03,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Light,279758,Chevron Products,N,Antwerp,24,4
+VYG1349,9591111,Nord Eagle,VLCC,2024-08-09,2024-08-13,2024-08-17,2024-08-14,2024-09-04,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,290062,Chevron Products,N,Antwerp,21,11
+VYG1350,9591111,Nord Eagle,VLCC,2024-09-08,2024-09-14,2024-09-18,2024-09-14,2024-09-27,Escravos,Nigeria,WAF,Rotterdam,Netherlands,NWE,Forcados,294824,Castleton Commodities,N,Antwerp,13,10
+VYG1351,9591111,Nord Eagle,VLCC,2024-10-05,2024-10-12,2024-10-16,2024-10-12,2024-11-08,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,276970,Chevron Products,N,Houston,27,9
+VYG1352,9591111,Nord Eagle,VLCC,2024-11-13,2024-11-19,2024-11-23,2024-11-20,2024-12-12,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,281645,Equinor Trading,N,Rotterdam,22,11
+VYG1353,9591111,Nord Eagle,VLCC,2024-12-19,2024-12-22,2024-12-26,2024-12-22,2025-01-04,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Light,266624,Saudi Aramco Trading,N,Singapore,13,9
+VYG1354,9592222,Nord Crown,Suezmax,2022-01-01,2022-01-07,2022-01-11,2022-01-08,2022-01-19,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,139374,Equinor Trading,N,Antwerp,11,10
+VYG1355,9592222,Nord Crown,Suezmax,2022-01-27,2022-01-30,2022-02-03,2022-01-30,2022-02-25,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,150555,Gunvor Group,N,Ulsan,26,10
+VYG1356,9592222,Nord Crown,Suezmax,2022-03-01,2022-03-04,2022-03-08,2022-03-06,2022-04-04,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,140681,Glencore Energy,N,Ulsan,29,10
+VYG1357,9592222,Nord Crown,Suezmax,2022-04-10,2022-04-17,2022-04-21,2022-04-18,2022-05-03,Ras Tanura,Saudi Arabia,AG,Trieste,Italy,MED,Arab Light,143103,Glencore Energy,N,Ulsan,15,9
+VYG1358,9592222,Nord Crown,Suezmax,2022-05-08,2022-05-14,2022-05-18,2022-05-16,2022-06-07,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,149344,Saudi Aramco Trading,N,Houston,22,10
+VYG1359,9592222,Nord Crown,Suezmax,2022-06-16,2022-06-19,2022-06-23,2022-06-21,2022-07-01,Djeno,Congo,WAF,Fos-sur-Mer,France,MED,Bonny Light,151808,Gunvor Group,N,Rotterdam,10,11
+VYG1360,9592222,Nord Crown,Suezmax,2022-07-05,2022-07-08,2022-07-12,2022-07-08,2022-08-04,Mongstad,Norway,NS,Ulsan,South Korea,FEA,Brent Blend,137780,Castleton Commodities,N,Ulsan,27,8
+VYG1361,9592222,Nord Crown,Suezmax,2022-08-08,2022-08-12,2022-08-16,2022-08-13,2022-09-06,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Forcados,139326,TotalEnergies Trading,N,Antwerp,24,5
+VYG1362,9592222,Nord Crown,Suezmax,2022-09-11,2022-09-16,2022-09-20,2022-09-17,2022-10-05,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,146354,Saudi Aramco Trading,N,Houston,18,7
+VYG1363,9592222,Nord Crown,Suezmax,2022-10-13,2022-10-19,2022-10-23,2022-10-19,2022-11-17,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Basrah Light,142651,Freepoint Commodities,N,Singapore,29,5
+VYG1364,9592222,Nord Crown,Suezmax,2022-11-26,2022-11-28,2022-12-02,2022-11-28,2022-12-27,Ras Tanura,Saudi Arabia,AG,Ulsan,South Korea,FEA,Arab Light,137915,ExxonMobil Oil,N,Houston,29,9
+VYG1365,9592222,Nord Crown,Suezmax,2023-01-02,2023-01-06,2023-01-10,2023-01-06,2023-01-20,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,143589,Gunvor Group,N,Ulsan,14,5
+VYG1366,9592222,Nord Crown,Suezmax,2023-01-25,2023-01-28,2023-02-01,2023-01-30,2023-02-13,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,140523,Glencore Energy,N,Houston,14,11
+VYG1367,9592222,Nord Crown,Suezmax,2023-02-20,2023-02-23,2023-02-27,2023-02-23,2023-03-10,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,151028,TotalEnergies Trading,N,Rotterdam,15,8
+VYG1368,9592222,Nord Crown,Suezmax,2023-03-16,2023-03-23,2023-03-27,2023-03-23,2023-04-10,Djeno,Congo,WAF,Qingdao,China,FEA,Bonny Light,136944,Saudi Aramco Trading,N,Antwerp,18,10
+VYG1369,9592222,Nord Crown,Suezmax,2023-04-14,2023-04-16,2023-04-20,2023-04-18,2023-05-10,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Light,139669,ExxonMobil Oil,N,Ulsan,22,7
+VYG1370,9592222,Nord Crown,Suezmax,2023-05-19,2023-05-24,2023-05-28,2023-05-26,2023-06-09,Basrah,Iraq,AG,Trieste,Italy,MED,Arab Heavy,137183,Chevron Products,N,Houston,14,10
+VYG1371,9592222,Nord Crown,Suezmax,2023-06-18,2023-06-25,2023-06-29,2023-06-26,2023-07-12,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,148179,Freepoint Commodities,N,Antwerp,16,8
+VYG1372,9592222,Nord Crown,Suezmax,2023-07-16,2023-07-18,2023-07-22,2023-07-20,2023-08-02,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Iranian Heavy,143238,Shell Trading,N,Houston,13,11
+VYG1373,9592222,Nord Crown,Suezmax,2023-08-06,2023-08-13,2023-08-17,2023-08-13,2023-09-02,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Bonny Light,149117,Equinor Trading,N,Antwerp,20,5
+VYG1374,9592222,Nord Crown,Suezmax,2023-09-10,2023-09-15,2023-09-19,2023-09-15,2023-10-03,Djeno,Congo,WAF,Qingdao,China,FEA,Forcados,144194,Vitol Group,N,Antwerp,18,4
+VYG1375,9592222,Nord Crown,Suezmax,2023-10-11,2023-10-16,2023-10-20,2023-10-17,2023-11-07,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Forcados,148596,Castleton Commodities,N,Singapore,21,11
+VYG1376,9592222,Nord Crown,Suezmax,2023-11-16,2023-11-22,2023-11-26,2023-11-22,2023-12-17,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Forcados,144507,Equinor Trading,N,Ulsan,25,9
+VYG1377,9592222,Nord Crown,Suezmax,2023-12-25,2023-12-28,2024-01-01,2023-12-29,2024-01-23,Basrah,Iraq,AG,Augusta,Italy,MED,Iranian Heavy,147588,TotalEnergies Trading,N,Singapore,25,10
+VYG1378,9592222,Nord Crown,Suezmax,2024-02-01,2024-02-03,2024-02-07,2024-02-05,2024-02-22,Basrah,Iraq,AG,Trieste,Italy,MED,Arab Heavy,143745,Freepoint Commodities,N,Ulsan,17,6
+VYG1379,9592222,Nord Crown,Suezmax,2024-02-26,2024-03-04,2024-03-08,2024-03-04,2024-03-15,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,149970,Freepoint Commodities,N,Ulsan,11,4
+VYG1380,9592222,Nord Crown,Suezmax,2024-03-20,2024-03-25,2024-03-29,2024-03-27,2024-04-18,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,150094,Trafigura,N,Rotterdam,22,7
+VYG1381,9592222,Nord Crown,Suezmax,2024-04-26,2024-04-29,2024-05-03,2024-04-29,2024-05-24,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Basrah Light,145798,Equinor Trading,N,Antwerp,25,6
+VYG1382,9592222,Nord Crown,Suezmax,2024-05-31,2024-06-07,2024-06-11,2024-06-09,2024-07-07,Escravos,Nigeria,WAF,Qingdao,China,FEA,Forcados,147434,BP Oil International,N,Singapore,28,4
+VYG1383,9592222,Nord Crown,Suezmax,2024-07-12,2024-07-17,2024-07-21,2024-07-18,2024-08-06,Basrah,Iraq,AG,Augusta,Italy,MED,Basrah Light,141798,Castleton Commodities,N,Rotterdam,19,10
+VYG1384,9592222,Nord Crown,Suezmax,2024-08-15,2024-08-21,2024-08-25,2024-08-21,2024-09-16,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,137188,Saudi Aramco Trading,N,Ulsan,26,7
+VYG1385,9592222,Nord Crown,Suezmax,2024-09-22,2024-09-28,2024-10-02,2024-09-29,2024-10-14,Escravos,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,147964,Gunvor Group,N,Singapore,15,9
+VYG1386,9592222,Nord Crown,Suezmax,2024-10-23,2024-10-26,2024-10-30,2024-10-26,2024-11-15,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,140208,Freepoint Commodities,N,Ulsan,20,8
+VYG1387,9592222,Nord Crown,Suezmax,2024-11-23,2024-11-26,2024-11-30,2024-11-27,2024-12-07,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Heavy,147405,Shell Trading,N,Ulsan,10,4
+VYG1388,9592222,Nord Crown,Suezmax,2024-12-14,2024-12-18,2024-12-22,2024-12-20,2025-01-17,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Heavy,143367,Glencore Energy,N,Houston,28,8
+VYG1389,9593333,Nord Quest,Suezmax,2022-01-01,2022-01-06,2022-01-10,2022-01-06,2022-01-20,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,152826,Castleton Commodities,N,Rotterdam,14,4
+VYG1390,9593333,Nord Quest,Suezmax,2022-01-26,2022-02-02,2022-02-06,2022-02-03,2022-02-15,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,154275,Freepoint Commodities,N,Singapore,12,5
+VYG1391,9593333,Nord Quest,Suezmax,2022-02-23,2022-03-02,2022-03-06,2022-03-04,2022-03-20,Mongstad,Norway,NS,Ulsan,South Korea,FEA,Brent Blend,143287,BP Oil International,N,Ulsan,16,5
+VYG1392,9593333,Nord Quest,Suezmax,2022-03-24,2022-03-27,2022-03-31,2022-03-27,2022-04-13,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,141097,Shell Trading,N,Singapore,17,4
+VYG1393,9593333,Nord Quest,Suezmax,2022-04-17,2022-04-19,2022-04-23,2022-04-20,2022-05-16,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,152233,BP Oil International,N,Rotterdam,26,4
+VYG1394,9593333,Nord Quest,Suezmax,2022-05-23,2022-05-27,2022-05-31,2022-05-29,2022-06-14,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Light,151252,ExxonMobil Oil,N,Antwerp,16,9
+VYG1395,9593333,Nord Quest,Suezmax,2022-06-20,2022-06-24,2022-06-28,2022-06-26,2022-07-12,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,142618,Trafigura,N,Houston,16,7
+VYG1396,9593333,Nord Quest,Suezmax,2022-07-20,2022-07-26,2022-07-30,2022-07-26,2022-08-13,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,153308,Vitol Group,N,Antwerp,18,5
+VYG1397,9593333,Nord Quest,Suezmax,2022-08-21,2022-08-24,2022-08-28,2022-08-26,2022-09-18,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,141156,Saudi Aramco Trading,N,Ulsan,23,11
+VYG1398,9593333,Nord Quest,Suezmax,2022-09-26,2022-09-29,2022-10-03,2022-09-29,2022-10-24,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,154385,Mercuria Energy,N,Houston,25,5
+VYG1399,9593333,Nord Quest,Suezmax,2022-10-28,2022-10-31,2022-11-04,2022-11-02,2022-11-23,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,148733,Gunvor Group,N,Ulsan,21,6
+VYG1400,9593333,Nord Quest,Suezmax,2022-11-30,2022-12-04,2022-12-08,2022-12-05,2022-12-18,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,150947,Glencore Energy,N,Rotterdam,13,8
+VYG1401,9593333,Nord Quest,Suezmax,2022-12-25,2022-12-31,2023-01-04,2023-01-01,2023-01-24,Djeno,Congo,WAF,Antwerp,Belgium,NWE,Bonny Light,147024,Glencore Energy,N,Antwerp,23,4
+VYG1402,9593333,Nord Quest,Suezmax,2023-01-30,2023-02-03,2023-02-07,2023-02-03,2023-03-04,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Basrah Light,151732,TotalEnergies Trading,N,Rotterdam,29,5
+VYG1403,9593333,Nord Quest,Suezmax,2023-03-12,2023-03-15,2023-03-19,2023-03-17,2023-04-12,Djeno,Congo,WAF,Trieste,Italy,MED,Forcados,152010,Freepoint Commodities,N,Singapore,26,11
+VYG1404,9593333,Nord Quest,Suezmax,2023-04-18,2023-04-23,2023-04-27,2023-04-24,2023-05-05,Basrah,Iraq,AG,Qingdao,China,FEA,Iranian Heavy,147739,Litasco,N,Houston,11,8
+VYG1405,9593333,Nord Quest,Suezmax,2023-05-14,2023-05-19,2023-05-23,2023-05-20,2023-06-11,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Heavy,141062,BP Oil International,N,Houston,22,7
+VYG1406,9593333,Nord Quest,Suezmax,2023-06-18,2023-06-24,2023-06-28,2023-06-25,2023-07-15,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,147366,Shell Trading,N,Singapore,20,11
+VYG1407,9593333,Nord Quest,Suezmax,2023-07-24,2023-07-31,2023-08-04,2023-08-01,2023-08-20,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Forcados,143368,Saudi Aramco Trading,N,Houston,19,5
+VYG1408,9593333,Nord Quest,Suezmax,2023-08-24,2023-08-29,2023-09-02,2023-08-29,2023-09-20,Basrah,Iraq,AG,Trieste,Italy,MED,Iranian Heavy,151582,Trafigura,N,Rotterdam,22,7
+VYG1409,9593333,Nord Quest,Suezmax,2023-09-28,2023-09-30,2023-10-04,2023-09-30,2023-10-21,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Heavy,154883,Trafigura,N,Ulsan,21,11
+VYG1410,9593333,Nord Quest,Suezmax,2023-10-26,2023-10-30,2023-11-03,2023-10-31,2023-11-13,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Light,146474,Freepoint Commodities,N,Ulsan,13,6
+VYG1411,9593333,Nord Quest,Suezmax,2023-11-18,2023-11-24,2023-11-28,2023-11-24,2023-12-08,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Forcados,147873,Mercuria Energy,N,Houston,14,5
+VYG1412,9593333,Nord Quest,Suezmax,2023-12-16,2023-12-20,2023-12-24,2023-12-22,2024-01-08,Ras Tanura,Saudi Arabia,AG,Augusta,Italy,MED,Iranian Heavy,144481,Gunvor Group,N,Singapore,17,11
+VYG1413,9593333,Nord Quest,Suezmax,2024-01-14,2024-01-17,2024-01-21,2024-01-19,2024-02-03,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,155717,Gunvor Group,N,Antwerp,15,4
+VYG1414,9593333,Nord Quest,Suezmax,2024-02-12,2024-02-14,2024-02-18,2024-02-15,2024-03-02,Djeno,Congo,WAF,Qingdao,China,FEA,Bonny Light,154753,Litasco,N,Houston,16,9
+VYG1415,9593333,Nord Quest,Suezmax,2024-03-07,2024-03-10,2024-03-14,2024-03-11,2024-03-31,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,144740,Saudi Aramco Trading,N,Ulsan,20,11
+VYG1416,9593333,Nord Quest,Suezmax,2024-04-06,2024-04-09,2024-04-13,2024-04-11,2024-04-29,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Bonny Light,152615,Gunvor Group,N,Ulsan,18,11
+VYG1417,9593333,Nord Quest,Suezmax,2024-05-08,2024-05-11,2024-05-15,2024-05-11,2024-05-27,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,148836,TotalEnergies Trading,N,Houston,16,5
+VYG1418,9593333,Nord Quest,Suezmax,2024-06-03,2024-06-08,2024-06-12,2024-06-09,2024-06-27,Djeno,Congo,WAF,Augusta,Italy,MED,Bonny Light,145223,Litasco,N,Ulsan,18,7
+VYG1419,9593333,Nord Quest,Suezmax,2024-07-03,2024-07-06,2024-07-10,2024-07-07,2024-07-19,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,153443,ExxonMobil Oil,N,Rotterdam,12,11
+VYG1420,9593333,Nord Quest,Suezmax,2024-07-25,2024-07-27,2024-07-31,2024-07-27,2024-08-08,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,140256,Gunvor Group,N,Antwerp,12,10
+VYG1421,9593333,Nord Quest,Suezmax,2024-08-17,2024-08-20,2024-08-24,2024-08-20,2024-09-02,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Heavy,144292,Shell Trading,N,Singapore,13,9
+VYG1422,9593333,Nord Quest,Suezmax,2024-09-06,2024-09-08,2024-09-12,2024-09-08,2024-10-06,Basrah,Iraq,AG,,,,Iranian Heavy,153415,Shell Trading,Y,Singapore,28,8
+VYG1423,9593333,Nord Quest,Suezmax,2024-10-10,2024-10-12,2024-10-16,2024-10-13,2024-11-04,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,146961,Gunvor Group,N,Houston,22,7
+VYG1424,9593333,Nord Quest,Suezmax,2024-11-08,2024-11-12,2024-11-16,2024-11-14,2024-12-06,Mongstad,Norway,NS,,,,Brent Blend,142759,ExxonMobil Oil,Y,Houston,22,11
+VYG1425,9593333,Nord Quest,Suezmax,2024-12-13,2024-12-20,2024-12-24,2024-12-21,2025-01-10,Djeno,Congo,WAF,Fos-sur-Mer,France,MED,Forcados,143144,Glencore Energy,N,Rotterdam,20,10
+VYG1426,9594444,Nord Star,Aframax,2022-01-01,2022-01-03,2022-01-07,2022-01-05,2022-01-18,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,104093,Mercuria Energy,N,Ulsan,13,8
+VYG1427,9594444,Nord Star,Aframax,2022-01-25,2022-01-28,2022-02-01,2022-01-30,2022-02-18,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,101073,Shell Trading,N,Singapore,19,9
+VYG1428,9594444,Nord Star,Aframax,2022-02-22,2022-02-24,2022-02-28,2022-02-25,2022-03-16,Novorossiysk,Russia,BS,,,,Urals,103478,Castleton Commodities,Y,Antwerp,19,9
+VYG1429,9594444,Nord Star,Aframax,2022-03-23,2022-03-28,2022-04-01,2022-03-28,2022-04-19,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,107637,Litasco,N,Houston,22,5
+VYG1430,9594444,Nord Star,Aframax,2022-04-27,2022-04-29,2022-05-03,2022-04-29,2022-05-26,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,101310,Litasco,N,Houston,27,7
+VYG1431,9594444,Nord Star,Aframax,2022-05-31,2022-06-02,2022-06-06,2022-06-04,2022-06-18,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,103196,Freepoint Commodities,N,Rotterdam,14,4
+VYG1432,9594444,Nord Star,Aframax,2022-06-23,2022-06-25,2022-06-29,2022-06-27,2022-07-18,Novorossiysk,Russia,BS,Antwerp,Belgium,NWE,Urals,108971,BP Oil International,N,Ulsan,21,11
+VYG1433,9594444,Nord Star,Aframax,2022-07-25,2022-07-27,2022-07-31,2022-07-27,2022-08-24,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,98694,Saudi Aramco Trading,N,Antwerp,28,10
+VYG1434,9594444,Nord Star,Aframax,2022-09-01,2022-09-07,2022-09-11,2022-09-09,2022-09-22,Primorsk,Russia,BS,Fos-sur-Mer,France,MED,Urals,104723,Litasco,N,Singapore,13,11
+VYG1435,9594444,Nord Star,Aframax,2022-09-30,2022-10-02,2022-10-06,2022-10-02,2022-10-28,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,105445,BP Oil International,N,Singapore,26,7
+VYG1436,9594444,Nord Star,Aframax,2022-11-03,2022-11-08,2022-11-12,2022-11-09,2022-11-29,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,99400,Shell Trading,N,Ulsan,20,5
+VYG1437,9594444,Nord Star,Aframax,2022-12-07,2022-12-13,2022-12-17,2022-12-13,2023-01-08,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,104270,Equinor Trading,N,Antwerp,26,8
+VYG1438,9594444,Nord Star,Aframax,2023-01-13,2023-01-20,2023-01-24,2023-01-22,2023-02-03,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,100517,BP Oil International,N,Ulsan,12,9
+VYG1439,9594444,Nord Star,Aframax,2023-02-09,2023-02-12,2023-02-16,2023-02-14,2023-03-05,Novorossiysk,Russia,BS,Corpus Christi,USA,USGC,Urals,106782,Saudi Aramco Trading,N,Houston,19,4
+VYG1440,9594444,Nord Star,Aframax,2023-03-10,2023-03-17,2023-03-21,2023-03-19,2023-04-11,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,101267,TotalEnergies Trading,N,Ulsan,23,7
+VYG1441,9594444,Nord Star,Aframax,2023-04-18,2023-04-23,2023-04-27,2023-04-24,2023-05-22,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,106320,ExxonMobil Oil,N,Antwerp,28,9
+VYG1442,9594444,Nord Star,Aframax,2023-05-31,2023-06-05,2023-06-09,2023-06-05,2023-06-24,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,102365,Glencore Energy,N,Singapore,19,4
+VYG1443,9594444,Nord Star,Aframax,2023-06-29,2023-07-01,2023-07-05,2023-07-02,2023-07-21,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,101753,Freepoint Commodities,N,Rotterdam,19,8
+VYG1444,9594444,Nord Star,Aframax,2023-07-27,2023-07-29,2023-08-02,2023-07-31,2023-08-24,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,103559,TotalEnergies Trading,N,Singapore,24,8
+VYG1445,9594444,Nord Star,Aframax,2023-09-01,2023-09-08,2023-09-12,2023-09-08,2023-10-01,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,108473,Gunvor Group,N,Antwerp,23,9
+VYG1446,9594444,Nord Star,Aframax,2023-10-07,2023-10-10,2023-10-14,2023-10-10,2023-10-25,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,99090,Vitol Group,N,Antwerp,15,5
+VYG1447,9594444,Nord Star,Aframax,2023-11-01,2023-11-04,2023-11-08,2023-11-05,2023-11-17,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,103200,Chevron Products,N,Antwerp,12,8
+VYG1448,9594444,Nord Star,Aframax,2023-11-24,2023-11-27,2023-12-01,2023-11-27,2023-12-15,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,102745,Chevron Products,N,Antwerp,18,4
+VYG1449,9594444,Nord Star,Aframax,2023-12-20,2023-12-25,2023-12-29,2023-12-27,2024-01-08,Mongstad,Norway,NS,,,,Brent Blend,101340,Freepoint Commodities,Y,Antwerp,12,6
+VYG1450,9594444,Nord Star,Aframax,2024-01-14,2024-01-17,2024-01-21,2024-01-18,2024-02-12,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,104500,Shell Trading,N,Antwerp,25,10
+VYG1451,9594444,Nord Star,Aframax,2024-02-17,2024-02-22,2024-02-26,2024-02-22,2024-03-03,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,102422,Glencore Energy,N,Antwerp,10,10
+VYG1452,9594444,Nord Star,Aframax,2024-03-09,2024-03-15,2024-03-19,2024-03-15,2024-03-26,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,98809,Equinor Trading,N,Antwerp,11,10
+VYG1453,9594444,Nord Star,Aframax,2024-04-04,2024-04-09,2024-04-13,2024-04-09,2024-05-04,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,107380,Equinor Trading,N,Singapore,25,8
+VYG1454,9594444,Nord Star,Aframax,2024-05-11,2024-05-14,2024-05-18,2024-05-16,2024-06-14,Novorossiysk,Russia,BS,,,,Urals,103543,BP Oil International,Y,Rotterdam,29,11
+VYG1455,9594444,Nord Star,Aframax,2024-06-23,2024-06-28,2024-07-02,2024-06-29,2024-07-11,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,109621,Equinor Trading,N,Houston,12,5
+VYG1456,9594444,Nord Star,Aframax,2024-07-15,2024-07-17,2024-07-21,2024-07-18,2024-07-30,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,103933,Gunvor Group,N,Ulsan,12,10
+VYG1457,9594444,Nord Star,Aframax,2024-08-03,2024-08-10,2024-08-14,2024-08-10,2024-08-29,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,99139,Glencore Energy,N,Ulsan,19,9
+VYG1458,9594444,Nord Star,Aframax,2024-09-07,2024-09-14,2024-09-18,2024-09-14,2024-10-09,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,103304,Gunvor Group,N,Singapore,25,8
+VYG1459,9594444,Nord Star,Aframax,2024-10-13,2024-10-20,2024-10-24,2024-10-22,2024-11-11,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,101458,Equinor Trading,N,Singapore,20,11
+VYG1460,9594444,Nord Star,Aframax,2024-11-18,2024-11-24,2024-11-28,2024-11-26,2024-12-09,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,108141,Trafigura,N,Houston,13,7
+VYG1461,9594444,Nord Star,Aframax,2024-12-18,2024-12-22,2024-12-26,2024-12-22,2025-01-11,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,100648,Freepoint Commodities,N,Singapore,20,9
+VYG1462,9595555,Nord Wave,Aframax,2022-01-01,2022-01-04,2022-01-08,2022-01-04,2022-01-22,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,108072,Vitol Group,N,Singapore,18,7
+VYG1463,9595555,Nord Wave,Aframax,2022-01-28,2022-01-31,2022-02-04,2022-02-01,2022-02-24,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,104369,Equinor Trading,N,Ulsan,23,7
+VYG1464,9595555,Nord Wave,Aframax,2022-03-02,2022-03-05,2022-03-09,2022-03-07,2022-03-26,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,110039,Mercuria Energy,N,Antwerp,19,7
+VYG1465,9595555,Nord Wave,Aframax,2022-03-30,2022-04-04,2022-04-08,2022-04-04,2022-04-18,Novorossiysk,Russia,BS,Antwerp,Belgium,NWE,Urals,104226,Chevron Products,N,Ulsan,14,9
+VYG1466,9595555,Nord Wave,Aframax,2022-04-22,2022-04-27,2022-05-01,2022-04-28,2022-05-19,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,108837,Equinor Trading,N,Antwerp,21,4
+VYG1467,9595555,Nord Wave,Aframax,2022-05-25,2022-05-27,2022-05-31,2022-05-27,2022-06-22,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,107234,Freepoint Commodities,N,Rotterdam,26,5
+VYG1468,9595555,Nord Wave,Aframax,2022-06-30,2022-07-04,2022-07-08,2022-07-06,2022-07-29,Novorossiysk,Russia,BS,Antwerp,Belgium,NWE,Urals,102176,Litasco,N,Ulsan,23,11
+VYG1469,9595555,Nord Wave,Aframax,2022-08-02,2022-08-07,2022-08-11,2022-08-09,2022-08-29,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,107309,Mercuria Energy,N,Rotterdam,20,6
+VYG1470,9595555,Nord Wave,Aframax,2022-09-02,2022-09-04,2022-09-08,2022-09-06,2022-09-28,Bonny,Nigeria,WAF,,,,Bonny Light,101554,Gunvor Group,Y,Antwerp,22,6
+VYG1471,9595555,Nord Wave,Aframax,2022-10-06,2022-10-09,2022-10-13,2022-10-10,2022-10-25,Primorsk,Russia,BS,,,,Urals,103504,Saudi Aramco Trading,Y,Houston,15,6
+VYG1472,9595555,Nord Wave,Aframax,2022-10-30,2022-11-06,2022-11-10,2022-11-07,2022-11-25,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,104058,TotalEnergies Trading,N,Rotterdam,18,7
+VYG1473,9595555,Nord Wave,Aframax,2022-11-30,2022-12-02,2022-12-06,2022-12-03,2022-12-13,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,108945,Saudi Aramco Trading,N,Ulsan,10,8
+VYG1474,9595555,Nord Wave,Aframax,2022-12-22,2022-12-26,2022-12-30,2022-12-28,2023-01-07,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,103906,Saudi Aramco Trading,N,Rotterdam,10,8
+VYG1475,9595555,Nord Wave,Aframax,2023-01-11,2023-01-17,2023-01-21,2023-01-17,2023-02-11,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,110528,Litasco,N,Ulsan,25,5
+VYG1476,9595555,Nord Wave,Aframax,2023-02-17,2023-02-19,2023-02-23,2023-02-21,2023-03-17,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,110913,TotalEnergies Trading,N,Antwerp,24,10
+VYG1477,9595555,Nord Wave,Aframax,2023-03-23,2023-03-25,2023-03-29,2023-03-27,2023-04-25,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,101383,Castleton Commodities,N,Antwerp,29,6
+VYG1478,9595555,Nord Wave,Aframax,2023-05-02,2023-05-04,2023-05-08,2023-05-04,2023-05-27,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,107187,Chevron Products,N,Ulsan,23,10
+VYG1479,9595555,Nord Wave,Aframax,2023-06-03,2023-06-10,2023-06-14,2023-06-11,2023-06-22,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Forcados,105041,Litasco,N,Antwerp,11,10
+VYG1480,9595555,Nord Wave,Aframax,2023-06-26,2023-07-01,2023-07-05,2023-07-02,2023-07-21,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,105166,Gunvor Group,N,Ulsan,19,6
+VYG1481,9595555,Nord Wave,Aframax,2023-07-25,2023-08-01,2023-08-05,2023-08-01,2023-08-16,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,105176,Glencore Energy,N,Rotterdam,15,10
+VYG1482,9595555,Nord Wave,Aframax,2023-08-21,2023-08-27,2023-08-31,2023-08-28,2023-09-08,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,106050,ExxonMobil Oil,N,Antwerp,11,7
+VYG1483,9595555,Nord Wave,Aframax,2023-09-12,2023-09-14,2023-09-18,2023-09-16,2023-10-03,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,105032,Chevron Products,N,Houston,17,7
+VYG1484,9595555,Nord Wave,Aframax,2023-10-11,2023-10-18,2023-10-22,2023-10-18,2023-11-10,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,111350,TotalEnergies Trading,N,Singapore,23,11
+VYG1485,9595555,Nord Wave,Aframax,2023-11-17,2023-11-24,2023-11-28,2023-11-24,2023-12-06,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,102257,Vitol Group,N,Rotterdam,12,5
+VYG1486,9595555,Nord Wave,Aframax,2023-12-14,2023-12-17,2023-12-21,2023-12-18,2024-01-03,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,101633,TotalEnergies Trading,N,Houston,16,6
+VYG1487,9595555,Nord Wave,Aframax,2024-01-09,2024-01-14,2024-01-18,2024-01-15,2024-02-08,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,107135,Freepoint Commodities,N,Rotterdam,24,5
+VYG1488,9595555,Nord Wave,Aframax,2024-02-16,2024-02-18,2024-02-22,2024-02-18,2024-03-09,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,107877,Saudi Aramco Trading,N,Ulsan,20,8
+VYG1489,9595555,Nord Wave,Aframax,2024-03-15,2024-03-17,2024-03-21,2024-03-18,2024-04-15,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,102440,Gunvor Group,N,Singapore,28,6
+VYG1490,9595555,Nord Wave,Aframax,2024-04-20,2024-04-22,2024-04-26,2024-04-23,2024-05-09,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,102101,Saudi Aramco Trading,N,Ulsan,16,9
+VYG1491,9595555,Nord Wave,Aframax,2024-05-17,2024-05-19,2024-05-23,2024-05-21,2024-06-19,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,110266,Vitol Group,N,Singapore,29,6
+VYG1492,9595555,Nord Wave,Aframax,2024-06-25,2024-07-01,2024-07-05,2024-07-03,2024-07-31,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,110917,Vitol Group,N,Ulsan,28,4
+VYG1493,9595555,Nord Wave,Aframax,2024-08-07,2024-08-14,2024-08-18,2024-08-15,2024-08-31,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,105477,Litasco,N,Houston,16,9
+VYG1494,9595555,Nord Wave,Aframax,2024-09-06,2024-09-09,2024-09-13,2024-09-09,2024-09-30,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,108360,Saudi Aramco Trading,N,Ulsan,21,11
+VYG1495,9595555,Nord Wave,Aframax,2024-10-07,2024-10-09,2024-10-13,2024-10-10,2024-10-20,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,104184,Castleton Commodities,N,Houston,10,8
+VYG1496,9595555,Nord Wave,Aframax,2024-10-27,2024-10-31,2024-11-04,2024-10-31,2024-11-25,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,110309,Shell Trading,N,Ulsan,25,11
+VYG1497,9595555,Nord Wave,Aframax,2024-12-01,2024-12-03,2024-12-07,2024-12-05,2024-12-21,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,106443,ExxonMobil Oil,N,Ulsan,16,7
+VYG1498,9595555,Nord Wave,Aframax,2024-12-26,2025-01-02,2025-01-06,2025-01-02,2025-01-21,Novorossiysk,Russia,BS,Antwerp,Belgium,NWE,Urals,104719,Freepoint Commodities,N,Antwerp,19,6
+VYG1499,9596666,Nord Peak,VLCC,2022-01-01,2022-01-04,2022-01-08,2022-01-06,2022-01-21,Basrah,Iraq,AG,Ningbo,China,FEA,Basrah Light,275644,TotalEnergies Trading,N,Rotterdam,15,5
+VYG1500,9596666,Nord Peak,VLCC,2022-01-27,2022-02-02,2022-02-06,2022-02-03,2022-03-04,Bonny,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,281625,Vitol Group,N,Rotterdam,29,10
+VYG1501,9596666,Nord Peak,VLCC,2022-03-09,2022-03-16,2022-03-20,2022-03-16,2022-04-05,Escravos,Nigeria,WAF,Ningbo,China,FEA,Bonny Light,287810,ExxonMobil Oil,N,Singapore,20,6
+VYG1502,9596666,Nord Peak,VLCC,2022-04-09,2022-04-15,2022-04-19,2022-04-16,2022-05-15,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,277751,Gunvor Group,N,Houston,29,9
+VYG1503,9596666,Nord Peak,VLCC,2022-05-19,2022-05-21,2022-05-25,2022-05-22,2022-06-12,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Heavy,286545,Shell Trading,N,Antwerp,21,4
+VYG1504,9596666,Nord Peak,VLCC,2022-06-19,2022-06-21,2022-06-25,2022-06-23,2022-07-19,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Iranian Heavy,282373,Equinor Trading,N,Singapore,26,10
+VYG1505,9596666,Nord Peak,VLCC,2022-07-25,2022-07-31,2022-08-04,2022-08-01,2022-08-27,Basrah,Iraq,AG,Singapore,Singapore,SEA,Basrah Light,265092,ExxonMobil Oil,N,Rotterdam,26,4
+VYG1506,9596666,Nord Peak,VLCC,2022-09-03,2022-09-09,2022-09-13,2022-09-09,2022-09-22,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Heavy,276606,Saudi Aramco Trading,N,Rotterdam,13,10
+VYG1507,9596666,Nord Peak,VLCC,2022-09-26,2022-09-29,2022-10-03,2022-10-01,2022-10-17,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Arab Heavy,270130,Castleton Commodities,N,Rotterdam,16,9
+VYG1508,9596666,Nord Peak,VLCC,2022-10-21,2022-10-25,2022-10-29,2022-10-27,2022-11-20,Ruwais,UAE,AG,Houston,USA,USGC,Iranian Heavy,272769,TotalEnergies Trading,N,Ulsan,24,10
+VYG1509,9596666,Nord Peak,VLCC,2022-11-25,2022-12-02,2022-12-06,2022-12-02,2022-12-26,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,273228,Chevron Products,N,Antwerp,24,8
+VYG1510,9596666,Nord Peak,VLCC,2022-12-31,2023-01-06,2023-01-10,2023-01-06,2023-01-17,Ras Tanura,Saudi Arabia,AG,,,,Basrah Light,264145,Equinor Trading,Y,Antwerp,11,9
+VYG1511,9596666,Nord Peak,VLCC,2023-01-26,2023-02-01,2023-02-05,2023-02-03,2023-03-03,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Bonny Light,278149,Freepoint Commodities,N,Antwerp,28,5
+VYG1512,9596666,Nord Peak,VLCC,2023-03-09,2023-03-16,2023-03-20,2023-03-17,2023-03-28,Ruwais,UAE,AG,Singapore,Singapore,SEA,Arab Heavy,276934,Glencore Energy,N,Rotterdam,11,6
+VYG1513,9596666,Nord Peak,VLCC,2023-04-02,2023-04-07,2023-04-11,2023-04-08,2023-05-05,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Iranian Heavy,266362,ExxonMobil Oil,N,Ulsan,27,7
+VYG1514,9596666,Nord Peak,VLCC,2023-05-11,2023-05-13,2023-05-17,2023-05-13,2023-06-07,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,269236,Litasco,N,Ulsan,25,6
+VYG1515,9596666,Nord Peak,VLCC,2023-06-11,2023-06-17,2023-06-21,2023-06-19,2023-07-08,Basrah,Iraq,AG,Ningbo,China,FEA,Arab Heavy,264977,TotalEnergies Trading,N,Antwerp,19,11
+VYG1516,9596666,Nord Peak,VLCC,2023-07-12,2023-07-14,2023-07-18,2023-07-15,2023-08-08,Escravos,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,293580,Saudi Aramco Trading,N,Ulsan,24,4
+VYG1517,9596666,Nord Peak,VLCC,2023-08-13,2023-08-16,2023-08-20,2023-08-16,2023-08-29,Ras Tanura,Saudi Arabia,AG,Ulsan,South Korea,FEA,Arab Light,278939,TotalEnergies Trading,N,Singapore,13,10
+VYG1518,9596666,Nord Peak,VLCC,2023-09-05,2023-09-07,2023-09-11,2023-09-08,2023-09-24,Ruwais,UAE,AG,Singapore,Singapore,SEA,Arab Heavy,276851,Shell Trading,N,Ulsan,16,10
+VYG1519,9596666,Nord Peak,VLCC,2023-09-28,2023-10-04,2023-10-08,2023-10-04,2023-10-31,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Iranian Heavy,281032,Glencore Energy,N,Ulsan,27,9
+VYG1520,9596666,Nord Peak,VLCC,2023-11-04,2023-11-07,2023-11-11,2023-11-07,2023-11-30,Basrah,Iraq,AG,Singapore,Singapore,SEA,Arab Light,272641,Trafigura,N,Ulsan,23,4
+VYG1521,9596666,Nord Peak,VLCC,2023-12-04,2023-12-10,2023-12-14,2023-12-10,2023-12-21,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,289065,ExxonMobil Oil,N,Rotterdam,11,4
+VYG1522,9596666,Nord Peak,VLCC,2023-12-25,2023-12-28,2024-01-01,2023-12-28,2024-01-24,Ruwais,UAE,AG,Singapore,Singapore,SEA,Arab Heavy,271041,Mercuria Energy,N,Antwerp,27,4
+VYG1523,9596666,Nord Peak,VLCC,2024-01-30,2024-02-04,2024-02-08,2024-02-06,2024-02-24,Escravos,Nigeria,WAF,Houston,USA,USGC,Forcados,278666,Litasco,N,Rotterdam,18,4
+VYG1524,9596666,Nord Peak,VLCC,2024-03-02,2024-03-09,2024-03-13,2024-03-11,2024-03-29,Escravos,Nigeria,WAF,Singapore,Singapore,SEA,Forcados,265552,Chevron Products,N,Singapore,18,5
+VYG1525,9596666,Nord Peak,VLCC,2024-04-03,2024-04-07,2024-04-11,2024-04-07,2024-05-04,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Iranian Heavy,284556,TotalEnergies Trading,N,Houston,27,10
+VYG1526,9596666,Nord Peak,VLCC,2024-05-09,2024-05-15,2024-05-19,2024-05-16,2024-05-27,Escravos,Nigeria,WAF,Ningbo,China,FEA,Forcados,277866,Mercuria Energy,N,Antwerp,11,6
+VYG1527,9596666,Nord Peak,VLCC,2024-06-02,2024-06-05,2024-06-09,2024-06-07,2024-06-23,Ruwais,UAE,AG,Houston,USA,USGC,Arab Heavy,274951,Glencore Energy,N,Singapore,16,4
+VYG1528,9596666,Nord Peak,VLCC,2024-06-27,2024-07-03,2024-07-07,2024-07-05,2024-07-19,Escravos,Nigeria,WAF,Houston,USA,USGC,Bonny Light,284815,Saudi Aramco Trading,N,Houston,14,8
+VYG1529,9596666,Nord Peak,VLCC,2024-07-28,2024-08-04,2024-08-08,2024-08-04,2024-08-18,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,264258,BP Oil International,N,Antwerp,14,4
+VYG1530,9596666,Nord Peak,VLCC,2024-08-22,2024-08-25,2024-08-29,2024-08-27,2024-09-09,Ras Tanura,Saudi Arabia,AG,,,,Arab Heavy,286442,Chevron Products,Y,Antwerp,13,11
+VYG1531,9596666,Nord Peak,VLCC,2024-09-13,2024-09-15,2024-09-19,2024-09-17,2024-10-08,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Basrah Light,274776,Freepoint Commodities,N,Antwerp,21,8
+VYG1532,9596666,Nord Peak,VLCC,2024-10-12,2024-10-15,2024-10-19,2024-10-16,2024-10-29,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Arab Heavy,269684,Litasco,N,Antwerp,13,11
+VYG1533,9596666,Nord Peak,VLCC,2024-11-05,2024-11-07,2024-11-11,2024-11-08,2024-11-29,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,287768,Glencore Energy,N,Rotterdam,21,9
+VYG1534,9596666,Nord Peak,VLCC,2024-12-07,2024-12-11,2024-12-15,2024-12-13,2024-12-30,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Iranian Heavy,280676,Equinor Trading,N,Antwerp,17,10
+VYG1535,9597777,Nord Vega,Suezmax,2022-01-01,2022-01-04,2022-01-08,2022-01-06,2022-01-22,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,149339,ExxonMobil Oil,N,Ulsan,16,11
+VYG1536,9597777,Nord Vega,Suezmax,2022-01-31,2022-02-04,2022-02-08,2022-02-05,2022-02-18,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,140289,Trafigura,N,Rotterdam,13,8
+VYG1537,9597777,Nord Vega,Suezmax,2022-02-24,2022-02-27,2022-03-03,2022-03-01,2022-03-21,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Light,153270,Shell Trading,N,Houston,20,10
+VYG1538,9597777,Nord Vega,Suezmax,2022-03-25,2022-03-27,2022-03-31,2022-03-27,2022-04-21,Djeno,Congo,WAF,Ulsan,South Korea,FEA,Bonny Light,152779,Saudi Aramco Trading,N,Rotterdam,25,10
+VYG1539,9597777,Nord Vega,Suezmax,2022-04-30,2022-05-06,2022-05-10,2022-05-06,2022-05-17,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,148548,Trafigura,N,Houston,11,6
+VYG1540,9597777,Nord Vega,Suezmax,2022-05-25,2022-05-27,2022-05-31,2022-05-29,2022-06-25,Escravos,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,143678,Glencore Energy,N,Houston,27,9
+VYG1541,9597777,Nord Vega,Suezmax,2022-07-04,2022-07-10,2022-07-14,2022-07-10,2022-08-08,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,149063,Freepoint Commodities,N,Houston,29,7
+VYG1542,9597777,Nord Vega,Suezmax,2022-08-14,2022-08-20,2022-08-24,2022-08-22,2022-09-08,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,141787,ExxonMobil Oil,N,Ulsan,17,11
+VYG1543,9597777,Nord Vega,Suezmax,2022-09-16,2022-09-21,2022-09-25,2022-09-22,2022-10-11,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,139372,Saudi Aramco Trading,N,Singapore,19,7
+VYG1544,9597777,Nord Vega,Suezmax,2022-10-17,2022-10-24,2022-10-28,2022-10-25,2022-11-19,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Light,149943,Glencore Energy,N,Rotterdam,25,8
+VYG1545,9597777,Nord Vega,Suezmax,2022-11-24,2022-11-29,2022-12-03,2022-11-29,2022-12-24,Djeno,Congo,WAF,Augusta,Italy,MED,Forcados,147065,Saudi Aramco Trading,N,Houston,25,4
+VYG1546,9597777,Nord Vega,Suezmax,2022-12-31,2023-01-06,2023-01-10,2023-01-06,2023-01-18,Basrah,Iraq,AG,Antwerp,Belgium,NWE,Arab Heavy,152349,Equinor Trading,N,Ulsan,12,6
+VYG1547,9597777,Nord Vega,Suezmax,2023-01-25,2023-01-31,2023-02-04,2023-01-31,2023-02-11,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,142092,Castleton Commodities,N,Rotterdam,11,4
+VYG1548,9597777,Nord Vega,Suezmax,2023-02-19,2023-02-26,2023-03-02,2023-02-28,2023-03-17,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,143932,Chevron Products,N,Rotterdam,17,8
+VYG1549,9597777,Nord Vega,Suezmax,2023-03-25,2023-03-29,2023-04-02,2023-03-31,2023-04-27,Escravos,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,146786,BP Oil International,N,Antwerp,27,6
+VYG1550,9597777,Nord Vega,Suezmax,2023-05-03,2023-05-06,2023-05-10,2023-05-06,2023-05-31,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,144480,Vitol Group,N,Rotterdam,25,5
+VYG1551,9597777,Nord Vega,Suezmax,2023-06-09,2023-06-16,2023-06-20,2023-06-17,2023-07-07,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,140265,Saudi Aramco Trading,N,Singapore,20,5
+VYG1552,9597777,Nord Vega,Suezmax,2023-07-13,2023-07-15,2023-07-19,2023-07-17,2023-08-13,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Light,151242,TotalEnergies Trading,N,Antwerp,27,7
+VYG1553,9597777,Nord Vega,Suezmax,2023-08-20,2023-08-22,2023-08-26,2023-08-24,2023-09-15,Djeno,Congo,WAF,Antwerp,Belgium,NWE,Forcados,144933,Chevron Products,N,Antwerp,22,5
+VYG1554,9597777,Nord Vega,Suezmax,2023-09-19,2023-09-26,2023-09-30,2023-09-28,2023-10-26,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Basrah Light,147297,Vitol Group,N,Ulsan,28,11
+VYG1555,9597777,Nord Vega,Suezmax,2023-11-02,2023-11-05,2023-11-09,2023-11-07,2023-12-03,Escravos,Nigeria,WAF,Ulsan,South Korea,FEA,Bonny Light,139133,Mercuria Energy,N,Ulsan,26,9
+VYG1556,9597777,Nord Vega,Suezmax,2023-12-11,2023-12-17,2023-12-21,2023-12-19,2024-01-07,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Bonny Light,139439,ExxonMobil Oil,N,Houston,19,10
+VYG1557,9597777,Nord Vega,Suezmax,2024-01-14,2024-01-21,2024-01-25,2024-01-22,2024-02-19,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,148716,Gunvor Group,N,Houston,28,11
+VYG1558,9597777,Nord Vega,Suezmax,2024-02-25,2024-03-02,2024-03-06,2024-03-03,2024-03-30,Basrah,Iraq,AG,Trieste,Italy,MED,Basrah Light,142265,Litasco,N,Houston,27,4
+VYG1559,9597777,Nord Vega,Suezmax,2024-04-04,2024-04-11,2024-04-15,2024-04-12,2024-04-24,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,147240,Mercuria Energy,N,Singapore,12,11
+VYG1560,9597777,Nord Vega,Suezmax,2024-04-29,2024-05-03,2024-05-07,2024-05-03,2024-05-20,Basrah,Iraq,AG,Trieste,Italy,MED,Iranian Heavy,148462,Vitol Group,N,Singapore,17,8
+VYG1561,9597777,Nord Vega,Suezmax,2024-05-25,2024-06-01,2024-06-05,2024-06-02,2024-06-15,Djeno,Congo,WAF,Qingdao,China,FEA,Bonny Light,152814,Glencore Energy,N,Houston,13,11
+VYG1562,9597777,Nord Vega,Suezmax,2024-06-23,2024-06-26,2024-06-30,2024-06-27,2024-07-17,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,149475,Mercuria Energy,N,Antwerp,20,8
+VYG1563,9597777,Nord Vega,Suezmax,2024-07-24,2024-07-26,2024-07-30,2024-07-26,2024-08-24,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,150908,Vitol Group,N,Ulsan,29,5
+VYG1564,9597777,Nord Vega,Suezmax,2024-08-30,2024-09-02,2024-09-06,2024-09-02,2024-09-28,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,145482,Castleton Commodities,N,Houston,26,8
+VYG1565,9597777,Nord Vega,Suezmax,2024-10-05,2024-10-09,2024-10-13,2024-10-11,2024-10-25,Basrah,Iraq,AG,Fos-sur-Mer,France,MED,Arab Light,144510,Saudi Aramco Trading,N,Singapore,14,4
+VYG1566,9597777,Nord Vega,Suezmax,2024-11-03,2024-11-07,2024-11-11,2024-11-07,2024-11-29,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Forcados,147157,ExxonMobil Oil,N,Antwerp,22,6
+VYG1567,9597777,Nord Vega,Suezmax,2024-12-04,2024-12-08,2024-12-12,2024-12-08,2024-12-30,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,143092,Vitol Group,N,Antwerp,22,8
+VYG1568,9598888,Nord Ace,Aframax,2022-01-01,2022-01-08,2022-01-12,2022-01-08,2022-01-22,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Forcados,102439,Vitol Group,N,Ulsan,14,6
+VYG1569,9598888,Nord Ace,Aframax,2022-01-30,2022-02-04,2022-02-08,2022-02-05,2022-02-28,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,108072,Castleton Commodities,N,Singapore,23,9
+VYG1570,9598888,Nord Ace,Aframax,2022-03-07,2022-03-10,2022-03-14,2022-03-11,2022-03-30,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,109677,Castleton Commodities,N,Singapore,19,4
+VYG1571,9598888,Nord Ace,Aframax,2022-04-03,2022-04-10,2022-04-14,2022-04-11,2022-04-21,Bonny,Nigeria,WAF,Corpus Christi,USA,USGC,Bonny Light,110791,Mercuria Energy,N,Singapore,10,7
+VYG1572,9598888,Nord Ace,Aframax,2022-04-29,2022-05-03,2022-05-07,2022-05-04,2022-05-17,Bonny,Nigeria,WAF,Fos-sur-Mer,France,MED,Forcados,112044,Mercuria Energy,N,Houston,13,8
+VYG1573,9598888,Nord Ace,Aframax,2022-05-26,2022-05-28,2022-06-01,2022-05-28,2022-06-25,Bonny,Nigeria,WAF,,,,Forcados,111779,Trafigura,Y,Ulsan,28,6
+VYG1574,9598888,Nord Ace,Aframax,2022-06-29,2022-07-05,2022-07-09,2022-07-05,2022-07-22,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,105958,Equinor Trading,N,Rotterdam,17,4
+VYG1575,9598888,Nord Ace,Aframax,2022-07-27,2022-07-29,2022-08-02,2022-07-29,2022-08-17,Novorossiysk,Russia,BS,Fos-sur-Mer,France,MED,Urals,110984,Gunvor Group,N,Ulsan,19,9
+VYG1576,9598888,Nord Ace,Aframax,2022-08-26,2022-09-01,2022-09-05,2022-09-02,2022-09-29,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,112674,Litasco,N,Singapore,27,4
+VYG1577,9598888,Nord Ace,Aframax,2022-10-05,2022-10-07,2022-10-11,2022-10-08,2022-10-26,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,113107,Trafigura,N,Singapore,18,7
+VYG1578,9598888,Nord Ace,Aframax,2022-11-01,2022-11-08,2022-11-12,2022-11-10,2022-11-30,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,102446,Mercuria Energy,N,Antwerp,20,7
+VYG1579,9598888,Nord Ace,Aframax,2022-12-04,2022-12-06,2022-12-10,2022-12-07,2022-12-29,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,109806,Trafigura,N,Houston,22,4
+VYG1580,9598888,Nord Ace,Aframax,2023-01-04,2023-01-07,2023-01-11,2023-01-09,2023-02-06,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,111045,Litasco,N,Ulsan,28,10
+VYG1581,9598888,Nord Ace,Aframax,2023-02-10,2023-02-13,2023-02-17,2023-02-13,2023-03-04,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,112066,TotalEnergies Trading,N,Antwerp,19,8
+VYG1582,9598888,Nord Ace,Aframax,2023-03-12,2023-03-19,2023-03-23,2023-03-21,2023-04-07,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,104728,Freepoint Commodities,N,Rotterdam,17,11
+VYG1583,9598888,Nord Ace,Aframax,2023-04-14,2023-04-21,2023-04-25,2023-04-23,2023-05-14,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,108580,TotalEnergies Trading,N,Singapore,21,6
+VYG1584,9598888,Nord Ace,Aframax,2023-05-20,2023-05-22,2023-05-26,2023-05-22,2023-06-14,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,107840,Shell Trading,N,Singapore,23,5
+VYG1585,9598888,Nord Ace,Aframax,2023-06-22,2023-06-29,2023-07-03,2023-06-30,2023-07-22,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,107051,Shell Trading,N,Antwerp,22,5
+VYG1586,9598888,Nord Ace,Aframax,2023-07-28,2023-08-02,2023-08-06,2023-08-02,2023-08-16,Bonny,Nigeria,WAF,Augusta,Italy,MED,Forcados,110392,Shell Trading,N,Rotterdam,14,10
+VYG1587,9598888,Nord Ace,Aframax,2023-08-24,2023-08-30,2023-09-03,2023-09-01,2023-09-22,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,105456,Shell Trading,N,Rotterdam,21,10
+VYG1588,9598888,Nord Ace,Aframax,2023-10-01,2023-10-05,2023-10-09,2023-10-07,2023-11-04,Bonny,Nigeria,WAF,Corpus Christi,USA,USGC,Forcados,111897,Saudi Aramco Trading,N,Ulsan,28,10
+VYG1589,9598888,Nord Ace,Aframax,2023-11-08,2023-11-15,2023-11-19,2023-11-15,2023-12-03,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,110717,Glencore Energy,N,Singapore,18,4
+VYG1590,9598888,Nord Ace,Aframax,2023-12-09,2023-12-16,2023-12-20,2023-12-18,2024-01-01,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,103308,Vitol Group,N,Singapore,14,7
+VYG1591,9598888,Nord Ace,Aframax,2024-01-09,2024-01-12,2024-01-16,2024-01-12,2024-02-07,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,106651,Freepoint Commodities,N,Ulsan,26,8
+VYG1592,9598888,Nord Ace,Aframax,2024-02-12,2024-02-15,2024-02-19,2024-02-16,2024-03-08,Primorsk,Russia,BS,Augusta,Italy,MED,Urals,102893,Gunvor Group,N,Houston,21,10
+VYG1593,9598888,Nord Ace,Aframax,2024-03-16,2024-03-21,2024-03-25,2024-03-22,2024-04-10,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,107268,Litasco,N,Singapore,19,6
+VYG1594,9598888,Nord Ace,Aframax,2024-04-16,2024-04-20,2024-04-24,2024-04-21,2024-05-07,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,107556,ExxonMobil Oil,N,Rotterdam,16,8
+VYG1595,9598888,Nord Ace,Aframax,2024-05-15,2024-05-21,2024-05-25,2024-05-23,2024-06-16,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,111366,Mercuria Energy,N,Antwerp,24,8
+VYG1596,9598888,Nord Ace,Aframax,2024-06-25,2024-06-28,2024-07-02,2024-06-28,2024-07-09,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,110654,Litasco,N,Singapore,11,8
+VYG1597,9598888,Nord Ace,Aframax,2024-07-15,2024-07-18,2024-07-22,2024-07-20,2024-08-12,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,108009,ExxonMobil Oil,N,Ulsan,23,5
+VYG1598,9598888,Nord Ace,Aframax,2024-08-21,2024-08-25,2024-08-29,2024-08-26,2024-09-06,Bonny,Nigeria,WAF,Rotterdam,Netherlands,NWE,Bonny Light,112228,Vitol Group,N,Singapore,11,11
+VYG1599,9598888,Nord Ace,Aframax,2024-09-11,2024-09-13,2024-09-17,2024-09-15,2024-10-11,Bonny,Nigeria,WAF,,,,Forcados,106642,Shell Trading,Y,Rotterdam,26,11
+VYG1600,9598888,Nord Ace,Aframax,2024-10-20,2024-10-27,2024-10-31,2024-10-29,2024-11-21,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,111502,TotalEnergies Trading,N,Ulsan,23,8
+VYG1601,9598888,Nord Ace,Aframax,2024-11-28,2024-12-04,2024-12-08,2024-12-04,2024-12-23,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,104747,Glencore Energy,N,Houston,19,6
+VYG1602,9598888,Nord Ace,Aframax,2024-12-28,2025-01-02,2025-01-06,2025-01-03,2025-01-29,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,104976,Chevron Products,N,Singapore,26,11
+VYG1603,9599999,Nord Bay,VLCC,2022-01-01,2022-01-03,2022-01-07,2022-01-03,2022-01-30,Bonny,Nigeria,WAF,Houston,USA,USGC,Forcados,276304,ExxonMobil Oil,N,Antwerp,27,8
+VYG1604,9599999,Nord Bay,VLCC,2022-02-08,2022-02-12,2022-02-16,2022-02-12,2022-03-02,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Arab Heavy,285341,Glencore Energy,N,Rotterdam,18,8
+VYG1605,9599999,Nord Bay,VLCC,2022-03-07,2022-03-11,2022-03-15,2022-03-13,2022-03-31,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,283362,Shell Trading,N,Rotterdam,18,10
+VYG1606,9599999,Nord Bay,VLCC,2022-04-08,2022-04-11,2022-04-15,2022-04-11,2022-04-24,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Arab Light,261440,Gunvor Group,N,Antwerp,13,7
+VYG1607,9599999,Nord Bay,VLCC,2022-05-02,2022-05-05,2022-05-09,2022-05-05,2022-05-26,Bonny,Nigeria,WAF,Ningbo,China,FEA,Forcados,269439,Glencore Energy,N,Ulsan,21,8
+VYG1608,9599999,Nord Bay,VLCC,2022-06-01,2022-06-07,2022-06-11,2022-06-07,2022-06-18,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Basrah Light,278446,Glencore Energy,N,Houston,11,8
+VYG1609,9599999,Nord Bay,VLCC,2022-06-27,2022-06-29,2022-07-03,2022-06-29,2022-07-25,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Basrah Light,284074,Saudi Aramco Trading,N,Houston,26,10
+VYG1610,9599999,Nord Bay,VLCC,2022-07-31,2022-08-04,2022-08-08,2022-08-06,2022-08-19,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Iranian Heavy,276121,BP Oil International,N,Antwerp,13,5
+VYG1611,9599999,Nord Bay,VLCC,2022-08-28,2022-08-30,2022-09-03,2022-09-01,2022-09-15,Basrah,Iraq,AG,Houston,USA,USGC,Arab Heavy,286230,Litasco,N,Rotterdam,14,4
+VYG1612,9599999,Nord Bay,VLCC,2022-09-19,2022-09-24,2022-09-28,2022-09-26,2022-10-14,Ras Tanura,Saudi Arabia,AG,Singapore,Singapore,SEA,Arab Heavy,282103,Mercuria Energy,N,Singapore,18,10
+VYG1613,9599999,Nord Bay,VLCC,2022-10-21,2022-10-27,2022-10-31,2022-10-28,2022-11-17,Escravos,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,288657,Gunvor Group,N,Rotterdam,20,8
+VYG1614,9599999,Nord Bay,VLCC,2022-11-21,2022-11-26,2022-11-30,2022-11-26,2022-12-06,Ras Tanura,Saudi Arabia,AG,Rotterdam,Netherlands,NWE,Basrah Light,274584,Equinor Trading,N,Ulsan,10,4
+VYG1615,9599999,Nord Bay,VLCC,2022-12-10,2022-12-16,2022-12-20,2022-12-16,2023-01-11,Basrah,Iraq,AG,Rotterdam,Netherlands,NWE,Arab Heavy,266164,BP Oil International,N,Singapore,26,6
+VYG1616,9599999,Nord Bay,VLCC,2023-01-19,2023-01-22,2023-01-26,2023-01-24,2023-02-06,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Iranian Heavy,271895,BP Oil International,N,Rotterdam,13,4
+VYG1617,9599999,Nord Bay,VLCC,2023-02-13,2023-02-18,2023-02-22,2023-02-19,2023-03-11,Ras Tanura,Saudi Arabia,AG,Singapore,Singapore,SEA,Arab Light,265376,Chevron Products,N,Antwerp,20,7
+VYG1618,9599999,Nord Bay,VLCC,2023-03-15,2023-03-21,2023-03-25,2023-03-21,2023-04-01,Basrah,Iraq,AG,Houston,USA,USGC,Iranian Heavy,267794,Shell Trading,N,Ulsan,11,9
+VYG1619,9599999,Nord Bay,VLCC,2023-04-09,2023-04-15,2023-04-19,2023-04-15,2023-05-08,Ruwais,UAE,AG,Ulsan,South Korea,FEA,Arab Light,289128,Litasco,N,Antwerp,23,7
+VYG1620,9599999,Nord Bay,VLCC,2023-05-14,2023-05-19,2023-05-23,2023-05-21,2023-06-14,Kharg Island,Iran,AG,Ningbo,China,FEA,Arab Heavy,290716,ExxonMobil Oil,N,Houston,24,4
+VYG1621,9599999,Nord Bay,VLCC,2023-06-22,2023-06-29,2023-07-03,2023-06-29,2023-07-20,Kharg Island,Iran,AG,Antwerp,Belgium,NWE,Basrah Light,271852,Trafigura,N,Ulsan,21,8
+VYG1622,9599999,Nord Bay,VLCC,2023-07-28,2023-08-03,2023-08-07,2023-08-05,2023-08-21,Ruwais,UAE,AG,Antwerp,Belgium,NWE,Arab Light,263180,TotalEnergies Trading,N,Houston,16,11
+VYG1623,9599999,Nord Bay,VLCC,2023-08-27,2023-09-01,2023-09-05,2023-09-02,2023-09-14,Basrah,Iraq,AG,Ulsan,South Korea,FEA,Basrah Light,271124,Equinor Trading,N,Rotterdam,12,8
+VYG1624,9599999,Nord Bay,VLCC,2023-09-22,2023-09-28,2023-10-02,2023-09-28,2023-10-26,Basrah,Iraq,AG,,,,Arab Heavy,287295,Litasco,Y,Houston,28,5
+VYG1625,9599999,Nord Bay,VLCC,2023-10-31,2023-11-06,2023-11-10,2023-11-07,2023-11-17,Bonny,Nigeria,WAF,,,,Bonny Light,277952,Equinor Trading,Y,Rotterdam,10,8
+VYG1626,9599999,Nord Bay,VLCC,2023-11-22,2023-11-28,2023-12-02,2023-11-29,2023-12-14,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Arab Light,269907,Mercuria Energy,N,Ulsan,15,7
+VYG1627,9599999,Nord Bay,VLCC,2023-12-22,2023-12-28,2024-01-01,2023-12-29,2024-01-09,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,290488,Equinor Trading,N,Ulsan,11,11
+VYG1628,9599999,Nord Bay,VLCC,2024-01-17,2024-01-19,2024-01-23,2024-01-20,2024-02-03,Ruwais,UAE,AG,Houston,USA,USGC,Arab Heavy,283229,Trafigura,N,Ulsan,14,5
+VYG1629,9599999,Nord Bay,VLCC,2024-02-07,2024-02-10,2024-02-14,2024-02-12,2024-03-02,Bonny,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,285904,Equinor Trading,N,Ulsan,19,10
+VYG1630,9599999,Nord Bay,VLCC,2024-03-10,2024-03-14,2024-03-18,2024-03-15,2024-04-13,Kharg Island,Iran,AG,Ulsan,South Korea,FEA,Basrah Light,272399,Trafigura,N,Houston,29,9
+VYG1631,9599999,Nord Bay,VLCC,2024-04-20,2024-04-22,2024-04-26,2024-04-22,2024-05-17,Bonny,Nigeria,WAF,Houston,USA,USGC,Bonny Light,274375,Gunvor Group,N,Houston,25,10
+VYG1632,9599999,Nord Bay,VLCC,2024-05-22,2024-05-28,2024-06-01,2024-05-28,2024-06-14,Basrah,Iraq,AG,Houston,USA,USGC,Iranian Heavy,263267,Gunvor Group,N,Rotterdam,17,8
+VYG1633,9599999,Nord Bay,VLCC,2024-06-18,2024-06-24,2024-06-28,2024-06-26,2024-07-13,Bonny,Nigeria,WAF,Antwerp,Belgium,NWE,Bonny Light,274170,ExxonMobil Oil,N,Antwerp,17,6
+VYG1634,9599999,Nord Bay,VLCC,2024-07-21,2024-07-25,2024-07-29,2024-07-25,2024-08-14,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Iranian Heavy,280987,Litasco,N,Singapore,20,10
+VYG1635,9599999,Nord Bay,VLCC,2024-08-23,2024-08-27,2024-08-31,2024-08-27,2024-09-20,Ruwais,UAE,AG,Houston,USA,USGC,Basrah Light,273668,Freepoint Commodities,N,Rotterdam,24,9
+VYG1636,9599999,Nord Bay,VLCC,2024-09-27,2024-09-30,2024-10-04,2024-09-30,2024-10-20,Ruwais,UAE,AG,Qingdao,China,FEA,Iranian Heavy,265038,TotalEnergies Trading,N,Ulsan,20,4
+VYG1637,9599999,Nord Bay,VLCC,2024-10-29,2024-11-02,2024-11-06,2024-11-03,2024-11-24,Kharg Island,Iran,AG,Singapore,Singapore,SEA,Arab Heavy,262435,Litasco,N,Houston,21,10
+VYG1638,9599999,Nord Bay,VLCC,2024-12-01,2024-12-08,2024-12-12,2024-12-09,2024-12-19,Ruwais,UAE,AG,Rotterdam,Netherlands,NWE,Iranian Heavy,264879,Chevron Products,N,Houston,10,4
+VYG1639,9599999,Nord Bay,VLCC,2024-12-28,2024-12-31,2025-01-04,2024-12-31,2025-01-15,Bonny,Nigeria,WAF,Ulsan,South Korea,FEA,Forcados,277072,Saudi Aramco Trading,N,Rotterdam,15,8
+VYG1640,9600000,Nord Vale,Suezmax,2022-01-01,2022-01-03,2022-01-07,2022-01-03,2022-01-16,Basrah,Iraq,AG,Fos-sur-Mer,France,MED,Arab Light,146978,BP Oil International,N,Singapore,13,4
+VYG1641,9600000,Nord Vale,Suezmax,2022-01-22,2022-01-27,2022-01-31,2022-01-27,2022-02-10,Ras Tanura,Saudi Arabia,AG,,,,Basrah Light,156836,TotalEnergies Trading,Y,Antwerp,14,7
+VYG1642,9600000,Nord Vale,Suezmax,2022-02-14,2022-02-20,2022-02-24,2022-02-20,2022-03-05,Bonny,Nigeria,WAF,Trieste,Italy,MED,Forcados,151624,Glencore Energy,N,Ulsan,13,5
+VYG1643,9600000,Nord Vale,Suezmax,2022-03-12,2022-03-17,2022-03-21,2022-03-18,2022-04-16,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Light,157369,Shell Trading,N,Rotterdam,29,7
+VYG1644,9600000,Nord Vale,Suezmax,2022-04-21,2022-04-28,2022-05-02,2022-04-29,2022-05-20,Djeno,Congo,WAF,Antwerp,Belgium,NWE,Bonny Light,156673,Equinor Trading,N,Ulsan,21,7
+VYG1645,9600000,Nord Vale,Suezmax,2022-05-25,2022-05-27,2022-05-31,2022-05-28,2022-06-26,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,152125,Gunvor Group,N,Rotterdam,29,6
+VYG1646,9600000,Nord Vale,Suezmax,2022-07-05,2022-07-10,2022-07-14,2022-07-10,2022-07-28,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,153020,Mercuria Energy,N,Rotterdam,18,11
+VYG1647,9600000,Nord Vale,Suezmax,2022-08-06,2022-08-08,2022-08-12,2022-08-09,2022-08-29,Bonny,Nigeria,WAF,Qingdao,China,FEA,Bonny Light,149025,Gunvor Group,N,Ulsan,20,6
+VYG1648,9600000,Nord Vale,Suezmax,2022-09-02,2022-09-08,2022-09-12,2022-09-08,2022-09-23,Djeno,Congo,WAF,,,,Bonny Light,153092,Saudi Aramco Trading,Y,Houston,15,10
+VYG1649,9600000,Nord Vale,Suezmax,2022-10-01,2022-10-08,2022-10-12,2022-10-09,2022-10-19,Djeno,Congo,WAF,Augusta,Italy,MED,Bonny Light,152533,Equinor Trading,N,Houston,10,8
+VYG1650,9600000,Nord Vale,Suezmax,2022-10-23,2022-10-26,2022-10-30,2022-10-27,2022-11-11,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Forcados,147559,Shell Trading,N,Rotterdam,15,9
+VYG1651,9600000,Nord Vale,Suezmax,2022-11-17,2022-11-23,2022-11-27,2022-11-24,2022-12-15,Bonny,Nigeria,WAF,Qingdao,China,FEA,Forcados,150746,ExxonMobil Oil,N,Rotterdam,21,9
+VYG1652,9600000,Nord Vale,Suezmax,2022-12-24,2022-12-31,2023-01-04,2023-01-02,2023-01-27,Ras Tanura,Saudi Arabia,AG,Qingdao,China,FEA,Arab Heavy,143062,Castleton Commodities,N,Singapore,25,7
+VYG1653,9600000,Nord Vale,Suezmax,2023-02-05,2023-02-08,2023-02-12,2023-02-09,2023-02-19,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,145261,Gunvor Group,N,Antwerp,10,5
+VYG1654,9600000,Nord Vale,Suezmax,2023-02-27,2023-03-06,2023-03-10,2023-03-06,2023-03-29,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,146902,Glencore Energy,N,Houston,23,6
+VYG1655,9600000,Nord Vale,Suezmax,2023-04-05,2023-04-11,2023-04-15,2023-04-11,2023-05-10,Ras Tanura,Saudi Arabia,AG,Antwerp,Belgium,NWE,Arab Heavy,144152,ExxonMobil Oil,N,Houston,29,4
+VYG1656,9600000,Nord Vale,Suezmax,2023-05-18,2023-05-21,2023-05-25,2023-05-21,2023-06-09,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,147095,Equinor Trading,N,Antwerp,19,11
+VYG1657,9600000,Nord Vale,Suezmax,2023-06-17,2023-06-19,2023-06-23,2023-06-20,2023-06-30,Sullom Voe,UK,NS,Augusta,Italy,MED,Brent Blend,156395,Litasco,N,Singapore,10,5
+VYG1658,9600000,Nord Vale,Suezmax,2023-07-08,2023-07-13,2023-07-17,2023-07-15,2023-08-12,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,145820,Chevron Products,N,Rotterdam,28,4
+VYG1659,9600000,Nord Vale,Suezmax,2023-08-21,2023-08-26,2023-08-30,2023-08-27,2023-09-12,Basrah,Iraq,AG,Qingdao,China,FEA,Arab Heavy,150918,Gunvor Group,N,Ulsan,16,11
+VYG1660,9600000,Nord Vale,Suezmax,2023-09-17,2023-09-20,2023-09-24,2023-09-21,2023-10-04,Escravos,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,156662,Trafigura,N,Houston,13,9
+VYG1661,9600000,Nord Vale,Suezmax,2023-10-13,2023-10-18,2023-10-22,2023-10-19,2023-11-14,Mongstad,Norway,NS,Ulsan,South Korea,FEA,Brent Blend,153111,Chevron Products,N,Houston,26,5
+VYG1662,9600000,Nord Vale,Suezmax,2023-11-22,2023-11-27,2023-12-01,2023-11-29,2023-12-12,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,143282,Gunvor Group,N,Ulsan,13,8
+VYG1663,9600000,Nord Vale,Suezmax,2023-12-20,2023-12-25,2023-12-29,2023-12-25,2024-01-05,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Heavy,142657,Freepoint Commodities,N,Ulsan,11,11
+VYG1664,9600000,Nord Vale,Suezmax,2024-01-12,2024-01-19,2024-01-23,2024-01-19,2024-02-02,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,154912,ExxonMobil Oil,N,Singapore,14,8
+VYG1665,9600000,Nord Vale,Suezmax,2024-02-06,2024-02-09,2024-02-13,2024-02-11,2024-03-02,Djeno,Congo,WAF,Rotterdam,Netherlands,NWE,Bonny Light,149293,Trafigura,N,Rotterdam,20,10
+VYG1666,9600000,Nord Vale,Suezmax,2024-03-09,2024-03-11,2024-03-15,2024-03-11,2024-04-07,Escravos,Nigeria,WAF,Fos-sur-Mer,France,MED,Bonny Light,155030,Saudi Aramco Trading,N,Houston,27,11
+VYG1667,9600000,Nord Vale,Suezmax,2024-04-14,2024-04-19,2024-04-23,2024-04-20,2024-05-04,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,143040,Chevron Products,N,Houston,14,7
+VYG1668,9600000,Nord Vale,Suezmax,2024-05-12,2024-05-17,2024-05-21,2024-05-18,2024-06-07,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,153768,ExxonMobil Oil,N,Antwerp,20,4
+VYG1669,9600000,Nord Vale,Suezmax,2024-06-12,2024-06-15,2024-06-19,2024-06-15,2024-07-12,Ras Tanura,Saudi Arabia,AG,Ulsan,South Korea,FEA,Arab Heavy,152920,Saudi Aramco Trading,N,Singapore,27,8
+VYG1670,9600000,Nord Vale,Suezmax,2024-07-17,2024-07-24,2024-07-28,2024-07-26,2024-08-20,Sullom Voe,UK,NS,Fos-sur-Mer,France,MED,Brent Blend,146931,TotalEnergies Trading,N,Ulsan,25,11
+VYG1671,9600000,Nord Vale,Suezmax,2024-08-26,2024-08-29,2024-09-02,2024-08-30,2024-09-16,Basrah,Iraq,AG,Augusta,Italy,MED,Arab Light,149315,Freepoint Commodities,N,Ulsan,17,4
+VYG1672,9600000,Nord Vale,Suezmax,2024-09-23,2024-09-26,2024-09-30,2024-09-26,2024-10-14,Bonny,Nigeria,WAF,Augusta,Italy,MED,Bonny Light,155520,Vitol Group,N,Houston,18,5
+VYG1673,9600000,Nord Vale,Suezmax,2024-10-18,2024-10-23,2024-10-27,2024-10-24,2024-11-10,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,142717,Mercuria Energy,N,Houston,17,6
+VYG1674,9600000,Nord Vale,Suezmax,2024-11-15,2024-11-19,2024-11-23,2024-11-19,2024-12-01,Sullom Voe,UK,NS,Ulsan,South Korea,FEA,Brent Blend,151626,Equinor Trading,N,Singapore,12,11
+VYG1675,9600000,Nord Vale,Suezmax,2024-12-10,2024-12-12,2024-12-16,2024-12-12,2024-12-25,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,147793,Glencore Energy,N,Singapore,13,5
+VYG1676,9601111,Nord Fox,Aframax,2022-01-01,2022-01-07,2022-01-11,2022-01-09,2022-01-27,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,110950,Vitol Group,N,Antwerp,18,7
+VYG1677,9601111,Nord Fox,Aframax,2022-02-01,2022-02-05,2022-02-09,2022-02-05,2022-02-27,Primorsk,Russia,BS,Antwerp,Belgium,NWE,Urals,102702,Chevron Products,N,Houston,22,5
+VYG1678,9601111,Nord Fox,Aframax,2022-03-08,2022-03-12,2022-03-16,2022-03-12,2022-04-07,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,106855,Chevron Products,N,Rotterdam,26,9
+VYG1679,9601111,Nord Fox,Aframax,2022-04-16,2022-04-20,2022-04-24,2022-04-21,2022-05-13,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,102326,Saudi Aramco Trading,N,Rotterdam,22,8
+VYG1680,9601111,Nord Fox,Aframax,2022-05-18,2022-05-21,2022-05-25,2022-05-22,2022-06-17,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,109899,Mercuria Energy,N,Rotterdam,26,7
+VYG1681,9601111,Nord Fox,Aframax,2022-06-22,2022-06-26,2022-06-30,2022-06-26,2022-07-14,Mongstad,Norway,NS,Fos-sur-Mer,France,MED,Brent Blend,101945,Equinor Trading,N,Ulsan,18,5
+VYG1682,9601111,Nord Fox,Aframax,2022-07-22,2022-07-24,2022-07-28,2022-07-25,2022-08-10,Primorsk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,109138,Freepoint Commodities,N,Rotterdam,16,4
+VYG1683,9601111,Nord Fox,Aframax,2022-08-17,2022-08-23,2022-08-27,2022-08-23,2022-09-19,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,103710,Freepoint Commodities,N,Antwerp,27,4
+VYG1684,9601111,Nord Fox,Aframax,2022-09-26,2022-09-28,2022-10-02,2022-09-29,2022-10-24,Novorossiysk,Russia,BS,Antwerp,Belgium,NWE,Urals,101172,Glencore Energy,N,Singapore,25,6
+VYG1685,9601111,Nord Fox,Aframax,2022-10-29,2022-11-03,2022-11-07,2022-11-03,2022-11-28,Mongstad,Norway,NS,Rotterdam,Netherlands,NWE,Brent Blend,103469,Saudi Aramco Trading,N,Ulsan,25,11
+VYG1686,9601111,Nord Fox,Aframax,2022-12-03,2022-12-07,2022-12-11,2022-12-08,2023-01-01,Bonny,Nigeria,WAF,Trieste,Italy,MED,Bonny Light,109809,Gunvor Group,N,Ulsan,24,8
+VYG1687,9601111,Nord Fox,Aframax,2023-01-06,2023-01-13,2023-01-17,2023-01-13,2023-02-09,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,105163,Freepoint Commodities,N,Antwerp,27,11
+VYG1688,9601111,Nord Fox,Aframax,2023-02-13,2023-02-16,2023-02-20,2023-02-16,2023-03-04,Sullom Voe,UK,NS,Antwerp,Belgium,NWE,Brent Blend,101808,Castleton Commodities,N,Rotterdam,16,7
+VYG1689,9601111,Nord Fox,Aframax,2023-03-13,2023-03-20,2023-03-24,2023-03-20,2023-04-02,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,108515,Litasco,N,Singapore,13,6
+VYG1690,9601111,Nord Fox,Aframax,2023-04-09,2023-04-11,2023-04-15,2023-04-13,2023-05-04,Mongstad,Norway,NS,Antwerp,Belgium,NWE,Brent Blend,101998,Freepoint Commodities,N,Singapore,21,6
+VYG1691,9601111,Nord Fox,Aframax,2023-05-08,2023-05-15,2023-05-19,2023-05-15,2023-05-31,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,107951,Chevron Products,N,Ulsan,16,8
+VYG1692,9601111,Nord Fox,Aframax,2023-06-07,2023-06-09,2023-06-13,2023-06-10,2023-06-29,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,107522,BP Oil International,N,Rotterdam,19,9
+VYG1693,9601111,Nord Fox,Aframax,2023-07-07,2023-07-10,2023-07-14,2023-07-12,2023-07-27,Novorossiysk,Russia,BS,Trieste,Italy,MED,Urals,103652,Litasco,N,Ulsan,15,10
+VYG1694,9601111,Nord Fox,Aframax,2023-08-01,2023-08-07,2023-08-11,2023-08-08,2023-08-19,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,106028,Chevron Products,N,Rotterdam,11,5
+VYG1695,9601111,Nord Fox,Aframax,2023-08-24,2023-08-26,2023-08-30,2023-08-27,2023-09-19,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,104724,ExxonMobil Oil,N,Ulsan,23,5
+VYG1696,9601111,Nord Fox,Aframax,2023-09-28,2023-10-03,2023-10-07,2023-10-03,2023-10-26,Sullom Voe,UK,NS,Trieste,Italy,MED,Brent Blend,108517,Vitol Group,N,Houston,23,4
+VYG1697,9601111,Nord Fox,Aframax,2023-11-02,2023-11-09,2023-11-13,2023-11-10,2023-11-21,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,104153,Gunvor Group,N,Ulsan,11,4
+VYG1698,9601111,Nord Fox,Aframax,2023-11-26,2023-12-01,2023-12-05,2023-12-01,2023-12-20,Primorsk,Russia,BS,Trieste,Italy,MED,Urals,109266,Chevron Products,N,Houston,19,11
+VYG1699,9601111,Nord Fox,Aframax,2023-12-26,2023-12-31,2024-01-04,2023-12-31,2024-01-24,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,109623,Shell Trading,N,Rotterdam,24,6
+VYG1700,9601111,Nord Fox,Aframax,2024-01-29,2024-02-02,2024-02-06,2024-02-02,2024-02-15,Novorossiysk,Russia,BS,Rotterdam,Netherlands,NWE,Urals,101284,Castleton Commodities,N,Singapore,13,8
+VYG1701,9601111,Nord Fox,Aframax,2024-02-21,2024-02-24,2024-02-28,2024-02-25,2024-03-12,Novorossiysk,Russia,BS,Augusta,Italy,MED,Urals,100525,Mercuria Energy,N,Singapore,16,10
+VYG1702,9601111,Nord Fox,Aframax,2024-03-21,2024-03-25,2024-03-29,2024-03-25,2024-04-19,Mongstad,Norway,NS,Corpus Christi,USA,USGC,Brent Blend,101498,TotalEnergies Trading,N,Ulsan,25,11
+VYG1703,9601111,Nord Fox,Aframax,2024-04-23,2024-04-29,2024-05-03,2024-04-29,2024-05-21,Sullom Voe,UK,NS,Corpus Christi,USA,USGC,Brent Blend,100971,Trafigura,N,Rotterdam,22,4
+VYG1704,9601111,Nord Fox,Aframax,2024-05-26,2024-05-31,2024-06-04,2024-05-31,2024-06-26,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,107507,Shell Trading,N,Houston,26,8
+VYG1705,9601111,Nord Fox,Aframax,2024-07-01,2024-07-07,2024-07-11,2024-07-08,2024-08-06,Primorsk,Russia,BS,Corpus Christi,USA,USGC,Urals,100336,Mercuria Energy,N,Rotterdam,29,5
+VYG1706,9601111,Nord Fox,Aframax,2024-08-15,2024-08-21,2024-08-25,2024-08-22,2024-09-14,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,110515,Equinor Trading,N,Rotterdam,23,4
+VYG1707,9601111,Nord Fox,Aframax,2024-09-22,2024-09-25,2024-09-29,2024-09-27,2024-10-16,Mongstad,Norway,NS,Trieste,Italy,MED,Brent Blend,100534,Saudi Aramco Trading,N,Houston,19,11
+VYG1708,9601111,Nord Fox,Aframax,2024-10-20,2024-10-27,2024-10-31,2024-10-29,2024-11-10,Sullom Voe,UK,NS,Rotterdam,Netherlands,NWE,Brent Blend,103152,Freepoint Commodities,N,Rotterdam,12,10
+VYG1709,9601111,Nord Fox,Aframax,2024-11-15,2024-11-18,2024-11-22,2024-11-19,2024-11-29,Novorossiysk,Russia,BS,Corpus Christi,USA,USGC,Urals,107824,Equinor Trading,N,Rotterdam,10,5
+VYG1710,9601111,Nord Fox,Aframax,2024-12-06,2024-12-12,2024-12-16,2024-12-13,2024-12-28,Mongstad,Norway,NS,Augusta,Italy,MED,Brent Blend,101631,Litasco,N,Rotterdam,15,8
