@@ -149,6 +149,7 @@ def clean_port_costs(data_dir: Path, out_path: Path) -> list[dict]:
                 if v is None:
                     v = 0.0
                 row[col] = f"{(v * fx):.6f}"
+            row["currency"] = "USD"
             rows_out.append(row)
     write_csv(out_path, list(rows_out[0].keys()), rows_out)
     return rows_out
