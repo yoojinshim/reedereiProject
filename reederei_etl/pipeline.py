@@ -464,8 +464,8 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
                 d = 0.0 if dem is None else float(dem)
                 return (alloc_f - d - bunk - pport - pcanal) / days
 
-            alloc_l = gross * share_l, 2
-            bunk_l = bunk_total * share_l, 2
+            alloc_l = gross * share_l
+            bunk_l = bunk_total * share_l
             tce_l = tce_row(alloc_l, dem_laden, bunk_l, disc_fees, disc_canal, laden_d)
 
             con.execute(
