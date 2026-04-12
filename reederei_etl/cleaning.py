@@ -134,22 +134,6 @@ def clean_port_costs(data_dir: Path, out_path: Path) -> list[dict]:
             row = dict(r)
             if is_missing(row.get("port")):
                 row["port"] = "STS"
-            fx = dfloat(row.get("usd_fx_rate"))
-            if fx is None:
-                raise ValueError(f"Missing usd_fx_rate for {row.get('port_call_id')}")
-            for col in (
-                "agency_fee",
-                "pilotage",
-                "towage",
-                "port_dues",
-                "mooring",
-                "canal_transit",
-            ):
-                v = dfloat(row.get(col))
-                if v is None:
-                    v = 0.0
-                row[col] = f"{(v * fx):.6f}"
-            row["currency"] = "USD"
             rows_out.append(row)
     write_csv(out_path, list(rows_out[0].keys()), rows_out)
     return rows_out
@@ -222,7 +206,11 @@ def clean_open_positions(
         voy_s = str(voy_ref).strip() if voy_ref is not None and str(voy_ref).strip() else None
         charterer = str(g(row, "charterer")).strip() if g(row, "charterer") else ""
         lp = str(g(row, "load port")).strip() if g(row, "load port") else ""
-        dp = str(g(row, "disch port")).strip() if g(row, "disch port") else ""
+        raw_dp = g(row, "disch port")
+        if is_missing(raw_dp):
+            dp = "STS"
+        else:
+            dp = str(raw_dp).strip()
         grade = str(g(row, "grade")).strip() if g(row, "grade") else None
         if grade == "":
             grade = None

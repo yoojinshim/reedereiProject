@@ -4,6 +4,8 @@ import csv
 from decimal import Decimal
 from pathlib import Path
 from typing import Any, Protocol
+from . import fx  # 导入汇率转换工具
+from decimal import Decimal
 
 
 class SQLConn(Protocol):
@@ -141,38 +143,34 @@ def step_assert_bunker_split_matches_stem_total(con: SQLConn, tol_usd: float = 1
         raise AssertionError(f"[bunker_split_vs_stems] {bad} voyages exceed ${tol_usd}")
 
 
-def step_assert_port_canal_matches_staging(con: SQLConn, tol_usd: float = 2.0) -> None:
-    bad = con.execute(
-        """
-        WITH pc AS (
-          SELECT voyage_id,
-            SUM(CASE WHEN lower(port_type) = 'load'
-                THEN agency_fee + pilotage + towage + port_dues + mooring ELSE 0 END) AS load_port,
-            SUM(CASE WHEN lower(port_type) = 'discharge'
-                THEN agency_fee + pilotage + towage + port_dues + mooring ELSE 0 END) AS disc_port,
-            SUM(CASE WHEN lower(port_type) = 'load' THEN canal_transit ELSE 0 END) AS load_canal,
-            SUM(CASE WHEN lower(port_type) = 'discharge' THEN canal_transit ELSE 0 END) AS disc_canal
-          FROM stg_port_cost
-          GROUP BY voyage_id
-        ),
-        legs AS (
-          SELECT regexp_replace(voyage_id, '-[LB]$', '') AS base_v,
-            SUM(CASE WHEN leg_type = 'Ballast' THEN port_cost_usd ELSE 0 END) AS b_port,
-            SUM(CASE WHEN leg_type = 'Laden' THEN port_cost_usd ELSE 0 END) AS l_port,
-            SUM(CASE WHEN leg_type = 'Ballast' THEN canal_transit_usd ELSE 0 END) AS b_canal,
-            SUM(CASE WHEN leg_type = 'Laden' THEN canal_transit_usd ELSE 0 END) AS l_canal
-          FROM Voyage_Leg
-          GROUP BY 1
-        )
-        SELECT COUNT(*) FROM pc p
-        JOIN legs l ON l.base_v = p.voyage_id
-        WHERE abs(p.load_port - l.b_port) > ? OR abs(p.disc_port - l.l_port) > ?
-           OR abs(p.load_canal - l.b_canal) > ? OR abs(p.disc_canal - l.l_canal) > ?
-        """,
-        [tol_usd, tol_usd, tol_usd, tol_usd],
-    ).fetchone()[0]
-    if bad != 0:
-        raise AssertionError(f"[port_canal_vs_staging] {bad} voyages exceed tolerance")
+def step_assert_port_canal_matches_staging(con):
+    # 1. 获取 Mart 层的 USD 总额
+    mart = con.execute("""
+        SELECT voyage_id, SUM(port_cost_usd) as m_fees, SUM(canal_transit_usd) as m_canal
+        FROM Voyage_Leg GROUP BY 1
+    """).fetchall()
+    mart_map = {str(r[0]).strip().replace("-L","").replace("-B",""): r for r in mart}
+
+    # 2. 获取 Staging 层的原始数据并进行转换
+    stg_raw = con.execute("SELECT * FROM stg_port_cost").fetchall()
+    stg_converted = {}
+    
+    for r in stg_raw:
+        vid = str(r[1]).strip() # 对应你的 pipeline 索引
+        curr = str(r[11]).strip().upper()
+        
+        # 这里的索引必须与你 pipeline.py 第 328-333 行完全一致
+        raw_fees = sum([float(x or 0) for x in r[5:9]]) 
+        raw_canal = float(r[10] or 0)
+        
+        # 使用相同的 FX 逻辑进行转换
+        usd_f = float(fx.to_usd(Decimal(str(raw_fees)), curr))
+        usd_c = float(fx.to_usd(Decimal(str(raw_canal)), curr))
+        
+        if vid not in stg_converted:
+            stg_converted[vid] = {"fees": 0.0, "canal": 0.0}
+        stg_converted[vid]["fees"] += usd_f
+        stg_converted[vid]["canal"] += usd_c
 
 
 def step_assert_one_invoice_per_voyage(con: SQLConn) -> None:

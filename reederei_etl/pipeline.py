@@ -13,6 +13,8 @@ import duckdb
 from . import assertions
 from .cleaning import dfloat, is_missing, run_all_cleaning
 from .config import DEFAULT_DATA_DIR, DEFAULT_DUCKDB_PATH, SQL_DIR
+from . import fx 
+from decimal import Decimal
 
 STG_TABLES = [
     ("stg_vessel", "vessels.csv"),
@@ -376,32 +378,56 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
             str(a).strip(): float(b)
             for a, b in con.execute("SELECT voyage_id, gross_freight_usd FROM stg_freight_invoice").fetchall()
         }
-        bunker_by = {
-            str(a).strip(): float(b)
-            for a, b in con.execute(
-                "SELECT voyage_id, SUM(total_cost_usd) FROM stg_bunker_stem GROUP BY voyage_id"
-            ).fetchall()
-        }
+        bunker_query = """
+            SELECT 
+                voyage_id, 
+                SUM(total_cost_usd) as total_cost, 
+                ANY_VALUE(grade) as bunker_grade 
+            FROM stg_bunker_stem 
+            GROUP BY voyage_id
+        """
+        bunker_data = con.execute(bunker_query).fetchall()
+        
+        bunker_by = {str(r[0]).strip(): float(r[1] or 0.0) for r in bunker_data}
+        bunker_grade_by = {str(r[0]).strip(): str(r[2]).strip() if r[2] else None for r in bunker_data}
         lay_by = {
             str(r["voyage_id"]).strip(): r
             for r in _table_dicts(con, "SELECT * FROM stg_laytime_statement")
         }
 
-        pc_rows = con.execute(
-            """
-            SELECT voyage_id, lower(port_type) AS pt,
-              SUM(agency_fee + pilotage + towage + port_dues + mooring) AS fees,
-              SUM(canal_transit) AS canal
-            FROM stg_port_cost
-            GROUP BY 1, 2
-            """
+        freight_data = con.execute(
+            "SELECT voyage_id, worldscale_points, flat_rate_usd_per_mt FROM stg_freight_invoice"
         ).fetchall()
-        port_split: dict[str, dict[str, float]] = {}
-        for vid, pt, fees, canal in pc_rows:
-            port_split.setdefault(str(vid).strip(), {})[str(pt).strip()] = {
-                "fees": float(fees or 0),
-                "canal": float(canal or 0),
-            }
+
+        ws_points_by = {str(r[0]).strip(): float(r[1] or 0.0) for r in freight_data}
+        flat_rate_by = {str(r[0]).strip(): float(r[2] or 0.0) for r in freight_data}
+
+        port_costs_raw = con.execute("SELECT * FROM stg_port_cost").fetchall()
+
+        port_split: dict[str, dict[str, dict[str, float]]] = {}
+        
+        for r in port_costs_raw:
+            vid = str(r[1]).strip()
+            pt = str(r[3]).strip().lower() # port_type: 'load' 或 'discharge'
+            curr = str(r[11]).strip().upper()
+            
+            # 计算这一行的原始总和
+            raw_fees = sum([dfloat(x) or 0.0 for x in r[5:10]]) # agency 到 mooring
+            raw_canal = dfloat(r[10]) or 0.0
+            
+            # 执行 FX 转换: Amount * STATIC_FX_TO_USD
+            usd_fees = float(fx.to_usd(Decimal(str(raw_fees)), curr))
+            usd_canal = float(fx.to_usd(Decimal(str(raw_canal)), curr))
+            
+            # 存入 port_split，逻辑与你原来完全一致，只是值变成了 USD
+            if vid not in port_split:
+                port_split[vid] = {}
+            
+            if pt not in port_split[vid]:
+                port_split[vid][pt] = {"fees": 0.0, "canal": 0.0}
+            
+            port_split[vid][pt]["fees"] += usd_fees
+            port_split[vid][pt]["canal"] += usd_canal
 
         est_map = load_est_tce_map(cleaned_dir)
 
@@ -420,10 +446,6 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
             gross = float(freight_by[vid])
             bunk_total = float(bunker_by.get(vid) or 0.0)
             sh = port_split.get(vid, {})
-            load_fees = sh.get("load", {}).get("fees", 0.0)
-            load_canal = sh.get("load", {}).get("canal", 0.0)
-            disc_fees = sh.get("discharge", {}).get("fees", 0.0)
-            disc_canal = sh.get("discharge", {}).get("canal", 0.0)
 
             load_pid = port_id_lookup(reg, r["load_port"], r["load_country"], r["load_region"])
             disc_pid = port_id_lookup(
@@ -458,6 +480,12 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
             share_l = laden_d / total_d if total_d else 0.0
             share_b = ballast_d / total_d if total_d else 0.0
 
+            disc_fees = sh.get("discharge", {}).get("fees", 0.0)
+            disc_canal = sh.get("discharge", {}).get("canal", 0.0)
+
+            load_fees = sh.get("load", {}).get("fees", 0.0)
+            load_canal = sh.get("load", {}).get("canal", 0.0)
+
             est = est_map.get(vid)
 
             def tce_row(alloc_f: float, dem: float | None, bunk: float, pport: float, pcanal: float, days: float) -> float:
@@ -467,15 +495,18 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
             alloc_l = gross * share_l
             bunk_l = bunk_total * share_l
             tce_l = tce_row(alloc_l, dem_laden, bunk_l, disc_fees, disc_canal, laden_d)
+            current_grade = bunker_grade_by.get(vid)
+            current_ws = ws_points_by.get(vid, 0.0)
+            current_flat_rate = flat_rate_by.get(vid, 0.0)
 
             con.execute(
                 """INSERT INTO Voyage_Leg (
                   leg_id, voyage_id, imo_number, charterer_id, cargo_id,
                   origin_port_id, destination_port_id, start_date, end_date,
-                  leg_type, sts_transfer, disputed, leg_days,
+                  leg_type, sts_transfer, disputed, leg_days, bunker_grade, ws_points, flat_rate_usd_per_mt,
                   allocated_freight_usd, bunker_cost_usd, port_cost_usd, canal_transit_usd,
                   demurrage_cost_usd, tce, est_tce
-                ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                 [
                     leg_id,
                     f"{vid}-L",
@@ -490,6 +521,9 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
                     sts,
                     disputed,
                     laden_d,
+                    current_grade,
+                    current_ws,        
+                    current_flat_rate,
                     alloc_l,
                     bunk_l,
                     disc_fees,
@@ -509,10 +543,10 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
                 """INSERT INTO Voyage_Leg (
                   leg_id, voyage_id, imo_number, charterer_id, cargo_id,
                   origin_port_id, destination_port_id, start_date, end_date,
-                  leg_type, sts_transfer, disputed, leg_days,
+                  leg_type, sts_transfer, disputed, leg_days, bunker_grade, ws_points, flat_rate_usd_per_mt,
                   allocated_freight_usd, bunker_cost_usd, port_cost_usd, canal_transit_usd,
                   demurrage_cost_usd, tce, est_tce
-                ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                 [
                     leg_id,
                     f"{vid}-B",
@@ -527,6 +561,9 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
                     sts,
                     disputed,
                     ballast_d,
+                    current_grade,
+                    current_ws,        
+                    current_flat_rate,
                     alloc_b,
                     bunk_b,
                     load_fees,
