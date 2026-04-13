@@ -50,26 +50,26 @@ make
 
 ## Project Structure
 ```text
-data/               # Raw input: voyages.csv, port_costs.csv, etc.
-├── data_audit.py       # Post-ETL auditor
-├── Makefile
-├── run_etl.sh          # initialize environment and execute the pipeline
-├── reederei_etl/         # Contains all ETL business logic
-│   ├── __init__.py     
-│   ├── __main__.py     
-│   ├── config.py       # Global path configurations
-│   ├── fx.py         # Implements Static FX normalization
-│   ├── pipeline.py         # Manages ingestion, cleaning, and Mart loading
-│   ├── requirements.txt    # Project dependencies (duckdb, openpyxl, etc.)
-│   ├── vessel_normalize.py    # String matching logic to map vessel names
-│   ├── cleaning.py        # Data cleaning
-│   ├── assertion.py       # Data Quality unit tests (verifies P&L totals match raw inputs)
-│   ├── sql/
-│   │   ├── duck_schema.sql     # Analytical Star Schema (Fact/Dimension tables)
-│   │   ├──01_schema.sql      # Staging DDLs
-├── output/
-│   ├── cleaned/        # Cleaned datasets
-│   └── reederei_mart.duckdb     # Final DuckDB analytical database
+├── data/               # Contains raw input: voyages.csv, port_costs.csv, etc.
+│   ├── data_audit.py       # Post-ETL auditor
+│   ├── Makefile
+│   ├── run_etl.sh          # initialize environment and execute the pipeline
+│   ├── reederei_etl/         # Contains all ETL business logic
+│   │   ├── __init__.py     
+│   │   ├── __main__.py     
+│   │   ├── config.py       # Global path configurations
+│   │   ├── fx.py         # Implements Static FX normalization
+│   │   ├── pipeline.py         # Manages ingestion, cleaning, and Mart loading
+│   │   ├── requirements.txt    # Project dependencies (duckdb, openpyxl, etc.)
+│   │   ├── vessel_normalize.py    # String matching logic to map vessel names
+│   │   ├── cleaning.py        # Data cleaning
+│   │   ├── assertion.py       # Data Quality unit tests (verifies P&L totals match raw inputs)
+│   │   └── sql/
+│   │       ├── duck_schema.sql     # Analytical Star Schema (Fact/Dimension tables)
+│   │       └── 01_schema.sql      # Staging DDLs
+│   └── output/
+│   │   ├── cleaned/        # Cleaned datasets
+│   │   └── reederei_mart.duckdb     # Final DuckDB analytical database
 
 ```
 
