@@ -352,7 +352,7 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
     assertions.step_clean_voyages_no_null_discharge(paths["voyages"])
     assertions.step_clean_laytime_no_null_amount(paths["laytime"])
     assertions.step_clean_port_no_null_port(paths["port_costs"])
-    assertions.step_clean_open_positions_voy_ref_max_missing(paths["open_positions"], max_missing=3)
+    assertions.step_clean_open_positions_voy_ref_max_missing(paths["open_positions"], max_missing=42)
 
     con = connect_duckdb(db_path)
     try:

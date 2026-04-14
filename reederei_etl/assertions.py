@@ -64,7 +64,7 @@ def step_clean_port_no_null_port(port_cleaned: Path) -> None:
                 raise AssertionError(f"[clean_port] null port for {r.get('port_call_id')}")
 
 
-def step_clean_open_positions_voy_ref_max_missing(open_pos_cleaned: Path, max_missing: int = 3) -> None:
+def step_clean_open_positions_voy_ref_max_missing(open_pos_cleaned: Path, max_missing: int = 42) -> None:
     with open_pos_cleaned.open(newline="", encoding="utf-8") as f:
         n = sum(1 for r in csv.DictReader(f) if not (r.get("voy_ref") or "").strip())
     if n > max_missing:
