@@ -179,7 +179,7 @@ if granularity == "Daily":
         st.error("Daily view is restricted to a 100-day range. Please shorten the range.")
         trend_df = pd.DataFrame()
     else:
-        trend_df = df.groupby(df['CP_DATE'].dt.date)['TCE_USD'].mean().reset_index()
+        trend_df = df.groupby(df['CP_DATE'])['TCE_USD'].mean().reset_index()
 elif granularity == "Monthly":
     trend_df = df.groupby(df['CP_DATE'].dt.to_period('M').astype(str))['TCE_USD'].mean().reset_index()
 else:
