@@ -166,10 +166,13 @@ def clean_open_positions(
     data_dir: Path,
     voyages: list[dict],
     invoices: list[dict],
+    vessels: list[dict],
     out_path: Path,
 ) -> list[dict]:
     hdr, data_rows = load_raw_open_positions(data_dir)
     col = {h.lower(): j for j, h in enumerate(hdr)}
+
+    vessel_to_imo = {v["vessel_name"].strip(): v["imo_number"].strip() for v in vessels}
 
     def g(row: tuple, name: str):
         idx = col.get(name)
@@ -202,6 +205,7 @@ def clean_open_positions(
     for row_no, row in data_rows:
         vessel_raw = g(row, "vessel")
         vessel_norm = normalize_vessel(vessel_raw) if vessel_raw else None
+        imo_number = vessel_to_imo.get(vessel_norm) if vessel_norm else None
         voy_ref = g(row, "voy ref (erp)")
         voy_s = str(voy_ref).strip() if voy_ref is not None and str(voy_ref).strip() else None
         charterer = str(g(row, "charterer")).strip() if g(row, "charterer") else ""
@@ -248,6 +252,7 @@ def clean_open_positions(
                 "row_no": row_no,
                 "vessel_raw": None if vessel_raw is None else str(vessel_raw).strip(),
                 "vessel": vessel_norm,
+                "imo_number": imo_number,
                 "voy_ref": voy_s,
                 "charterer": charterer or None,
                 "load_port": lp or None,
@@ -265,6 +270,7 @@ def clean_open_positions(
         "row_no",
         "vessel_raw",
         "vessel",
+        "imo_number",
         "voy_ref",
         "charterer",
         "load_port",
@@ -305,7 +311,10 @@ def run_all_cleaning(data_dir: Path, cleaned_dir: Path) -> dict[str, Path]:
 
     with (data_dir / "freight_invoices.csv").open(newline="", encoding="utf-8-sig") as f:
         invoices = list(csv.DictReader(f))
-    clean_open_positions(data_dir, voyages, invoices, cleaned_dir / "open_positions.csv")
+    with (data_dir / "vessels.csv").open(newline="", encoding="utf-8-sig") as f:
+        vessels = list(csv.DictReader(f))
+    
+    clean_open_positions(data_dir, voyages, invoices, vessels, cleaned_dir / "open_positions.csv")
     paths["open_positions"] = cleaned_dir / "open_positions.csv"
 
     for name, fn in [

@@ -10,6 +10,7 @@ _SPECIAL = {
     "POL": "Nord Polaris",
     "HRZ": "Nord Horizon",
     "APX": "Nord Apex",
+    "Merdian": "Nord Meridian",
 }
 
 
@@ -36,7 +37,7 @@ def normalize_vessel(raw: str | None) -> str | None:
     if not s:
         return s
 
-    compact = re.sub(r"\s+", "", s).upper()
+    compact = re.sub(r"\s+", "", s)
     if compact in _SPECIAL:
         return _SPECIAL[compact]
 

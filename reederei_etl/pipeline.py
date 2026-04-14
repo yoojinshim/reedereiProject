@@ -411,15 +411,12 @@ def run_pipeline(data_dir: Path | None = None, db_path: Path | None = None) -> P
             pt = str(r[3]).strip().lower() # port_type: 'load' 或 'discharge'
             curr = str(r[11]).strip().upper()
             
-            # 计算这一行的原始总和
             raw_fees = sum([dfloat(x) or 0.0 for x in r[5:10]]) # agency 到 mooring
             raw_canal = dfloat(r[10]) or 0.0
             
-            # 执行 FX 转换: Amount * STATIC_FX_TO_USD
             usd_fees = float(fx.to_usd(Decimal(str(raw_fees)), curr))
             usd_canal = float(fx.to_usd(Decimal(str(raw_canal)), curr))
             
-            # 存入 port_split，逻辑与你原来完全一致，只是值变成了 USD
             if vid not in port_split:
                 port_split[vid] = {}
             

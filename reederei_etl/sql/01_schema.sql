@@ -128,6 +128,7 @@ CREATE TABLE stg_broker_message (
 CREATE TABLE stg_excel_open_position (
   row_no INTEGER NOT NULL,
   vessel TEXT,
+  imo_number TEXT,
   voy_ref TEXT,
   charterer TEXT,
   load_port TEXT,
