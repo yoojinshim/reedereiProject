@@ -46,12 +46,30 @@ make
 
 *The system will automatically read from your defined path and generate results in `./output`.*
 
+### Follow these steps to launch the interactive dashboard on your local machine:
+
+1.  **Open your Terminal** (or Command Prompt/PowerShell).
+2.  **Navigate to the project folder** using the `cd` command (should be in the same folder as output/):
+    ```bash
+    cd /your/path/to/dashboard
+    ```
+3.  **Ensure dependencies are installed** (if you haven't already):
+    ```bash
+    pip install streamlit pandas duckdb
+    ```
+4.  **Run the Streamlit application**:
+    ```bash
+    streamlit run dashboard.py
+    ```
+5.  **Access the Dashboard**:
+    Once the command is running, a local URL will be generated (usually `http://localhost:8501`). It should open automatically in your default web browser.
+
 ---
 
 ## Project Structure
 ```text
 ├── data/               # Contains raw input: voyages.csv, port_costs.csv, etc.
-│   ├── data_audit.py       # Post-ETL auditor
+│   ├── dashboard.py       # live dashboard
 │   ├── Makefile
 │   ├── run_etl.sh          # initialize environment and execute the pipeline
 │   ├── reederei_etl/         # Contains all ETL business logic
