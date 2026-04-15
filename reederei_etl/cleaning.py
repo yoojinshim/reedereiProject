@@ -100,7 +100,7 @@ def impute_laytime_amount_usd(
     if st.lower() == "agreed" and claimed is not None:
         return float(claimed)
     if claimed is not None:
-        return float(claimed) * 0.75
+        return float(claimed) * 0.72
     return None
 
 
@@ -234,7 +234,7 @@ def clean_open_positions(
                 top_sc, top_v = scored[0]
                 second_sc = scored[1][0] if len(scored) > 1 else -1
                 unique_best = top_sc > second_sc
-                if top_sc >= 50 or (unique_best and top_sc >= 40):
+                if top_sc >= 85: 
                     voy_s = top_v["voyage_id"].strip()
 
         if voy_s:
