@@ -219,36 +219,151 @@ st.plotly_chart(fig2, use_container_width=True)
 # 3. TCE by Cargo Grade
 
 st.subheader("3. TCE by Cargo Grade")
-cargo_tce = df.groupby('cargo_grade')['TCE_USD'].sum().reset_index()
-fig3 = px.pie(cargo_tce, values='TCE_USD', names='cargo_grade', hole=0.4)
+cargo_tce = df.groupby('cargo_grade')['TCE_USD'].mean().reset_index()
+cargo_color_map = {
+    "Brent Blend": "#0169CA",       
+    "Bonny Light": "#58508d",        
+    "Forcados": "#bc5090",             
+    "Urals": "#ff6361",      
+    "Basrah Light": "#ffa600", 
+    "Arab Heavy": "#FFABAB",
+    "Arab Light": "#28B09E",
+    "Iranian Heavy": "#9ECAE1"
+}
+fig3 = px.pie(
+    cargo_tce, 
+    values='TCE_USD', 
+    names='cargo_grade', 
+    hole=0.4,
+    title="Average TCE by Cargo Grade",
+    color='cargo_grade', 
+    color_discrete_map=cargo_color_map
+)
 st.plotly_chart(fig3, use_container_width=True)
 
 
 # 4. Top 10 Routes by Net Voyage Result
 st.subheader("4. Top 10 Routes by Net Result")
 df['Route'] = df['load_port'] + " to " + df['disc_port']
-route_df = df.groupby('Route')['NET_VOYAGE_RESULT_USD'].sum().sort_values(ascending=False).head(10).reset_index()
-fig4 = px.bar(route_df, x='NET_VOYAGE_RESULT_USD', y='Route', orientation='h', 
-                color='NET_VOYAGE_RESULT_USD', color_continuous_scale='Blues')
+route_df = df.groupby(['Route']).agg({
+    'NET_VOYAGE_RESULT_USD': 'sum',
+    'VOYAGE_ID_T': 'count'  
+}).reset_index()
+
+route_df.columns = ['Route', 'Total Net Result', 'Voyage Count']
+route_df = route_df.sort_values('Total Net Result', ascending=False).head(10)
+
+fig4 = px.bar(
+    route_df,
+    x='Total Net Result',
+    y='Route',
+    orientation='h',
+    title="Top 10 Routes by Net Voyage Result",
+    labels={'Total Net Result': 'Net Result (USD)', 'Route': 'Voyage Route'},
+    hover_data={
+        'Route': False,           
+        'Total Net Result': ':$.2f', 
+        'Voyage Count': True  
+    },
+    color='Total Net Result',
+    color_continuous_scale=[[0, '#9ecae1'], [1, '#08306b']]
+)
 fig4.update_layout(yaxis={'categoryorder':'total ascending'}, xaxis_title="Net Result (USD)")
 st.plotly_chart(fig4, use_container_width=True)
 
 # 5. Demurrage Exposure by Charterer
 st.subheader("5. Demurrage Exposure by Charterer")
-char_dem = pnl_df.groupby('charterer_name')['sum_dem'].sum().reset_index()
-char_dem['Exposure'] = char_dem['sum_dem'] * -1
-fig5 = px.bar(char_dem, x='charterer_name', y='Exposure', 
-                labels={'Exposure': 'Net Demurrage (USD)', 'charterer_name': 'Charterer'})
+
+plot_dem_df = df[['VOYAGE_ID_T', 'charterer_name', 'DISPUTE_FLAG']].merge(
+    dem_lookup, 
+    left_on='VOYAGE_ID_T', 
+    right_on='vid', 
+    how='left'
+)
+plot_dem_df['voyage_demurrage'] = -1 *plot_dem_df['sum_dem'].fillna(0)
+
+dem_view_mode = st.radio(
+    "Select View Mode:",
+    ["Total Exposure", "Disputed Only"],
+    horizontal=True,
+    key="chart5_view_toggle_final"
+)
+if dem_view_mode == "Disputed Only":
+    filtered_plot_df = plot_dem_df[plot_dem_df['DISPUTE_FLAG'] == True]
+    display_title = "Demurrage Exposure (Disputed Only)"
+    bar_color = '#EF553B' 
+else:
+    filtered_plot_df = plot_dem_df
+    display_title = "Total Demurrage Exposure (All)"
+    bar_color = '#08306b' 
+
+charterer_final = filtered_plot_df.groupby('charterer_name')['voyage_demurrage'].sum().reset_index()
+charterer_final = charterer_final.sort_values('voyage_demurrage', ascending=False)
+
+fig5 = px.bar(
+    charterer_final,
+    x='charterer_name',
+    y='voyage_demurrage',
+    title=display_title,
+    labels={'voyage_demurrage': 'Demurrage Amount (USD)', 'charterer_name': 'Charterer'},
+    #text_auto='.3s',
+    color_discrete_sequence=[bar_color]
+)
+fig5.update_traces(textposition='outside')
 st.plotly_chart(fig5, use_container_width=True)
 
 
 # 6. Bunker Cost Breakdown by Grade & Scrubber
 st.subheader("6. Bunker Cost Breakdown by Scrubber Status")
-df['Scrubber_Status'] = df['SCRUBBER_FLAG'].map({True: 'Scrubber (HSFO/MDO)', False: 'Standard (VLSFO/MDO)'})
-bunker_sum = df.groupby(['Scrubber_Status', 'BUNKER_GRADE'])['TOTAL_VOYAGE_COST_USD'].sum().reset_index()
-fig6 = px.bar(bunker_sum, x='Scrubber_Status', y='TOTAL_VOYAGE_COST_USD', color='BUNKER_GRADE', 
-              barmode='group', labels={'TOTAL_VOYAGE_COST_USD': 'Total Fuel Cost (USD)'})
+
+v_ids_bunker = to_sql_list(df['VOYAGE_ID_T'].tolist())
+bunker_sql = f"""
+    SELECT 
+        LEFT(voyage_id, 7) as vid, 
+        SUM(bunker_cost_usd) as total_bunker_voyage 
+    FROM Voyage_Leg 
+    WHERE vid IN {v_ids_bunker} 
+    GROUP BY 1
+"""
+bunker_lookup = get_data(bunker_sql)
+
+bunker_pnl_df = df[['VOYAGE_ID_T', 'SCRUBBER_FLAG']].merge(
+    bunker_lookup, 
+    left_on='VOYAGE_ID_T', 
+    right_on='vid', 
+    how='left'
+)
+bunker_pnl_df['total_bunker_voyage'] = bunker_pnl_df['total_bunker_voyage'].fillna(0)
+
+bunker_mode = st.radio(
+    "Select Bunker Metric:",
+    ["Average per Voyage", "Total Fleet Spend"],
+    horizontal=True,
+    key="bunker_toggle_unique"
+)
+
+is_total = bunker_mode == "Total Fleet Spend"
+fuel_final = bunker_pnl_df.groupby('SCRUBBER_FLAG')['total_bunker_voyage'].agg(
+    'sum' if is_total else 'mean'
+).reset_index()
+fuel_final['Scrubber Fitted'] = fuel_final['SCRUBBER_FLAG'].map({True: 'Yes', False: 'No'})
+
+y_title = "Total Bunker Cost (USD)" if is_total else "Avg Bunker Cost per Voyage (USD)"
+
+fig6 = px.bar(
+    fuel_final,
+    x='Scrubber Fitted',
+    y='total_bunker_voyage',
+    color='Scrubber Fitted',
+    title=f"{bunker_mode}",
+    labels={'total_bunker_voyage': y_title, 'Scrubber Fitted': 'Scrubber Fitted'},
+    text_auto='.3s',
+    color_discrete_map={'Yes': '#2E8B57', 'No': '#CD5C5C'}
+)
+
+fig6.update_traces(textposition='outside')
 st.plotly_chart(fig6, use_container_width=True)
+
 
 # 7. Market Context Panel: Fleet Avg WS vs Flat Rate
 st.subheader("7. Market Context: Fleet Avg WS vs Monthly Flat Rate")
